@@ -4,5 +4,6 @@
     <SelectedDevice>nexus_5x_oreo_8_1_-_api_27</SelectedDevice>
     <DefaultDevice>nexus_5x_oreo_8_1_-_api_27</DefaultDevice>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

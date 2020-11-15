@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZY/OaBcB/bgx6lP4Sto9Exvx5gEnJfeJCObDMmX+j8mgPLEEG5HaQFkSBIdvGpT82LyZ2mqyZI3RRvN9xNzkfg==",
+  "dgSpecHash": "rRclp+LIld1a+8Iqxf/U1A69cwk0YFsJi9PSDys7NORp3Q+/Xl/X+4k53Ql2NVHyTSj6VOzfOH/I9lF+Y63IiA==",
   "success": true,
-  "projectFilePath": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
+  "projectFilePath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

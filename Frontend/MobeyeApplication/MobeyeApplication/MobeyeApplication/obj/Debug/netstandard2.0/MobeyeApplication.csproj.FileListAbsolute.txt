@@ -1,0 +1,16 @@
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\bin\Debug\netstandard2.0\MobeyeApplication.deps.json
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\bin\Debug\netstandard2.0\MobeyeApplication.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\bin\Debug\netstandard2.0\ref\MobeyeApplication.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\bin\Debug\netstandard2.0\MobeyeApplication.pdb
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.csprojAssemblyReference.cache
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.AssemblyInfoInputs.cache
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.AssemblyInfo.cs
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.csproj.CoreCompileInputs.cache
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\ref\MobeyeApplication.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.pdb
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\LoginPageAccUser.xaml.g.cs
