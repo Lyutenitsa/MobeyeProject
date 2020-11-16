@@ -11,11 +11,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\menu_icon.png" />
     <None Remove="Assets\Images\mobeye_logo.jpg" />
+    <None Remove="Assets\Images\profile_icon2.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\menu_icon.png" />
     <EmbeddedResource Include="Assets\Images\mobeye_logo.jpg" />
+    <EmbeddedResource Include="Assets\Images\profile_icon2.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,11 +28,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Pages\AccountUser\BasePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Pages\LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\LoginPageAccUser.xaml">
+    <EmbeddedResource Update="Pages\AccountUser\LoginPageAccUser.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\ContactUser\" />
+    <Folder Include="Pages\CallKeyUser\" />
   </ItemGroup>
 </Project>

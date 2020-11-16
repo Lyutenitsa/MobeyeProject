@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobeyeApplication.Pages.AccountUser.BasePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40" />
+                    </Grid.RowDefinitions>
+                    
+                    <Button Grid.Column="0" Margin="0,0,110,0" BackgroundColor="#2196F3"/>
+                    <Image Source="menu_icon.png" Grid.Column="0" InputTransparent="True" Margin="0,0,110,0" />
+
+                    <Button Grid.Column="1" Margin="110,0,0,0" BackgroundColor="#2196F3"/>
+                    <Image Source="profile_icon2.png" Grid.Column="1" InputTransparent="True" Margin="110,0,0,0" />
+                </Grid>
+            </Frame>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

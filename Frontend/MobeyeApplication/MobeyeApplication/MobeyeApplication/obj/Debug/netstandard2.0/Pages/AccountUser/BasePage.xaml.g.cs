@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MobeyeApplication.Pages.LoginPageAccUser.xaml", "Pages/LoginPageAccUser.xaml", typeof(global::MobeyeApplication.Pages.LoginPageAccUser))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MobeyeApplication.Pages.AccountUser.BasePage.xaml", "Pages/AccountUser/BasePage.xaml", typeof(global::MobeyeApplication.Pages.AccountUser.BasePage))]
 
-namespace MobeyeApplication.Pages {
+namespace MobeyeApplication.Pages.AccountUser {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\LoginPageAccUser.xaml")]
-    public partial class LoginPageAccUser : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\AccountUser\\BasePage.xaml")]
+    public partial class BasePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(LoginPageAccUser));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(BasePage));
         }
     }
 }
