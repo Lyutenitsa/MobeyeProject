@@ -22,7 +22,8 @@ namespace MobeyeApplication.Pages
         {
             // Go to main menu of user 1
             DisplayAlert("Test", "Login Successful!", "Cancel");
-            App.Current.MainPage = new BasePage();
+            //App.Current.MainPage = new BasePage();
+            App.Current.MainPage = new BasePage1();
         }
     }
 }
