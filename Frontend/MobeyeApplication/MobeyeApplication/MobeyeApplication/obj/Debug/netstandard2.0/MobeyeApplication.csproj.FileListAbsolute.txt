@@ -13,8 +13,8 @@ D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\Mobeye
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.pdb
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\LoginPageAccUser.xaml.g.cs
-D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BasePage.xaml.g.cs
-D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\BaseMDPage.xaml.g.cs
-D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\BasePageDetailTest.xaml.g.cs
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\BasePageMaster.xaml.g.cs
-D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\BPD_Test2.xaml.g.cs
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\BasePage.xaml.g.cs
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\BasePageDetail.xaml.g.cs
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\AccountPage.xaml.g.cs
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\Dashboard.xaml.g.cs

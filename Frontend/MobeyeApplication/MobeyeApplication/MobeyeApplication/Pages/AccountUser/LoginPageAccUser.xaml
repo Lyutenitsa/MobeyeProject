@@ -9,8 +9,7 @@
             <Entry Placeholder="username" Margin="0,20" />
             <Entry Placeholder="password" Margin="0,20" IsPassword="True" />
 
-            <Button Text="Login" Grid.Column="0" Margin="0,20,0,0" Clicked="OnLoginBtnClicked"/>
-
+            <Button Text="Login" Margin="0,20,0,0" Clicked="OnLoginBtnClicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

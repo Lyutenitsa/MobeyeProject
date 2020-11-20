@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobeyeApplication.Pages.AccountUser.BaseMasterDetail.AccountPage"
+             Title="Account">
+    <StackLayout Margin="20">
+        <Label Text="Name: " FontSize="24" Padding="0,30,0,10" />
+        <Label Text="Address: " FontSize="24" Padding="0,10" />
+        <Label Text="Zipcode: " FontSize="24" Padding="0,10" />
+        <Label Text="City: " FontSize="24" Padding="0,10" />
+        <Label Text="Country: " FontSize="24" Padding="0,10" />
+        <Label Text="Email: " FontSize="24" Padding="0,10" />
+        <Label Text="Telephone: " FontSize="24" Padding="0,10" />
+        <Button Text="Edit profile" Margin="0,10" Padding="0,10" />
+    </StackLayout>
+</ContentPage>

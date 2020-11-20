@@ -1,38 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MobeyeApplication.Pages.AccountUser"
-             x:Class="MobeyeApplication.Pages.AccountUser.BasePage1Master"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MobeyeApplication.Pages.AccountUser.BaseMasterDetail"
+             x:Class="MobeyeApplication.Pages.AccountUser.BaseMasterDetail.BasePageMaster"
              Title="Master">
   <StackLayout>
-    <ListView x:Name="MenuItemsListView"
+        <ListView x:Name="MenuItemsListView"
               SeparatorVisibility="None"
               HasUnevenRows="true">
-      <ListView.Header>
-        <Frame BackgroundColor="#2196F3" Padding="20" CornerRadius="0">
-           <Label Text="Menu" Style="{DynamicResource SubtitleStyle}" FontAttributes="Bold" FontSize="36"/>
-        </Frame>
-      </ListView.Header>
+            <ListView.Header>
+                <Frame BackgroundColor="#2196F3" Padding="20" CornerRadius="0">
+                    <Label Text="Menu" Style="{DynamicResource Key=SubtitleStyle}" FontAttributes="Bold" FontSize="36"/>
+                </Frame>
+            </ListView.Header>
 
-      <ListView.ItemsSource>
-         <x:Array Type="{x:Type local:BaseMDMenuItem}">
-            <local:BaseMDMenuItem Title="Detail" TargetType="{x:Type local:BasePage1Detail}" />
-            <local:BaseMDMenuItem Title="Dashboard" TargetType="{x:Type local:BPD_Test2}" />
-            <local:BaseMDMenuItem Title="Options" TargetType="{x:Type local:BasePage1Detail}" />
-         </x:Array>
-      </ListView.ItemsSource>      
+            <ListView.ItemsSource>
+                <Array Type="{x:Type local:BasePageMasterMenuItem}">
+                    <local:BasePageMasterMenuItem Title="Dashboard" TargetType="{x:Type local:Dashboard} " />
+                    <local:BasePageMasterMenuItem Title="Account" TargetType="{x:Type local:AccountPage}" />
+                </Array>
+            </ListView.ItemsSource>
 
-      <ListView.ItemTemplate>
-        <DataTemplate>
-          <ViewCell>
-            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
-              <Label VerticalOptions="FillAndExpand" 
-                    VerticalTextAlignment="Center" 
-                    Text="{Binding Title}" 
-                    FontSize="32"/>
-            </StackLayout>
-          </ViewCell>
-        </DataTemplate>
-      </ListView.ItemTemplate>
-    </ListView>
-  </StackLayout>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
+                            <Label VerticalOptions="FillAndExpand" 
+                            VerticalTextAlignment="Center" 
+                            Text="{Binding Title}" 
+                            FontSize="32"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

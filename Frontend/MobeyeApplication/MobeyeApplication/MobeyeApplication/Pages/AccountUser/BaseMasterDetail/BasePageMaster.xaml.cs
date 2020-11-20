@@ -10,32 +10,31 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MobeyeApplication.Pages.AccountUser
+namespace MobeyeApplication.Pages.AccountUser.BaseMasterDetail
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class BasePage1Master : ContentPage
+    public partial class BasePageMaster : ContentPage
     {
         public ListView ListView;
 
-        public BasePage1Master()
+        public BasePageMaster()
         {
             InitializeComponent();
 
-            BindingContext = new BasePage1MasterViewModel();
+            BindingContext = new BasePageMasterViewModel();
             ListView = MenuItemsListView;
         }
 
-        class BasePage1MasterViewModel : INotifyPropertyChanged
+        class BasePageMasterViewModel : INotifyPropertyChanged
         {
-            public ObservableCollection<BaseMDMenuItem> MenuItems { get; set; }
+            public ObservableCollection<BasePageMasterMenuItem> MenuItems { get; set; }
 
-            public BasePage1MasterViewModel()
+            public BasePageMasterViewModel()
             {
-                MenuItems = new ObservableCollection<BaseMDMenuItem>(new[]
+                MenuItems = new ObservableCollection<BasePageMasterMenuItem>(new[]
                 {
-                    new BaseMDMenuItem { Id = 0, Title = "Home" },
-                    new BaseMDMenuItem { Id = 1, Title = "Dashboard" },
-                    new BaseMDMenuItem { Id = 2, Title = "Settings" },
+                    new BasePageMasterMenuItem { Id = 0, Title = "Dashboard" },
+                    new BasePageMasterMenuItem { Id = 1, Title = "Account" },
                 });
             }
 

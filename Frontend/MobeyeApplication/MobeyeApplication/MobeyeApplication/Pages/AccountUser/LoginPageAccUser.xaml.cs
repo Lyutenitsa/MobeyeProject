@@ -1,4 +1,5 @@
 ﻿using MobeyeApplication.Pages.AccountUser;
+using MobeyeApplication.Pages.AccountUser.BaseMasterDetail;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,9 +22,9 @@ namespace MobeyeApplication.Pages
         private void OnLoginBtnClicked(object sender, EventArgs e)
         {
             // Go to main menu of user 1
-            DisplayAlert("Test", "Login Successful!", "Cancel");
+            //DisplayAlert("Test", "Login Successful!", "Cancel");
             //App.Current.MainPage = new BasePage();
-            App.Current.MainPage = new BasePage1();
+            App.Current.MainPage = new BasePage();
         }
     }
 }
