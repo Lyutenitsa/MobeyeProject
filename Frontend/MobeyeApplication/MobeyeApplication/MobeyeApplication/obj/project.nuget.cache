@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rRclp+LIld1a+8Iqxf/U1A69cwk0YFsJi9PSDys7NORp3Q+/Xl/X+4k53Ql2NVHyTSj6VOzfOH/I9lF+Y63IiA==",
+  "dgSpecHash": "UW3e44Z0k280AKAGZ6Wss3qXzCRsrnV++wty/fKXVQsJbkJ1cW03PRDxjAymrUZzOjvam+0mRMbPDY7/GErEsg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
+  "projectFilePath": "C:\\Users\\leonm\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\leonm\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\leonm\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\leonm\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
