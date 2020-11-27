@@ -37,3 +37,4 @@ C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\n
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.pdb
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.genruntimeconfig.cache
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csprojAssemblyReference.cache
