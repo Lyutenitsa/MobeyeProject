@@ -13,10 +13,26 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <Label Text="Refresh" Grid.Column="0"/>
+                <Button Text="" Grid.Column="0" Margin="0,0,110,0"/>
+                <Image Source="reset_button.png" Scale="0.2"/>
+
+                <Button Text="" Grid.Column="1" Margin="110,0,0,0"/>
+
             </Grid>
 
-            <Label Text="DROP DOWN" HorizontalOptions="Fill" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+
+
+            <Picker Title="Doors">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>House Entrance Door</x:String>
+                        <x:String>Master Bedroom Door</x:String>
+                        <x:String>Safe Door</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Label Text="OPEN DOOR" HorizontalOptions="Fill" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
         </StackLayout>
     </ContentPage.Content>
