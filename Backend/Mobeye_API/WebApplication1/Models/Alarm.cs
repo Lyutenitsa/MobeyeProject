@@ -8,6 +8,12 @@ namespace Mobeye_API.Models
 {
     public class Alarm
     {
+        public Alarm()
+        {
+            Id = Guid.NewGuid();
+        }
+
+        public Guid Id { get; set; }
         [Required]
         public string Devicename { get; set; }
         [Required]
@@ -24,9 +30,11 @@ namespace Mobeye_API.Models
         [Required]
         public string MessageId { get; set; }
         [Required]
-        public string[] Recipients { get; set; }
+        public ICollection<User> Recipients { get; set; }
         [Required]
         public bool Escalation { get; set; }
+        public string Confirmed_Denied { get; set; }
+        public DateTime Confirmed_at { get; set; }
 
 
 

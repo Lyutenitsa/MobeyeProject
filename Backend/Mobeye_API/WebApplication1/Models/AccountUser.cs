@@ -8,7 +8,8 @@ namespace Mobeye_API.Models
 {
     public class AccountUser : User
     {
-        public AccountUser() : base() { }
+        public ICollection<Alarm> Alarms { get; set; }
+
 
 
     }

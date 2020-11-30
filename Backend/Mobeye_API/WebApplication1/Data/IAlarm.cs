@@ -10,5 +10,7 @@ namespace Mobeye_API.Data
     {
         void CreateAlarm(Alarm alarm);
         Alarm GetAlarm();
+        IEnumerable<Alarm> GetAllAlarms();
+
     }
 }

@@ -7,5 +7,6 @@ namespace Mobeye_API.Models
 {
     public class CallKeyUser : User
     {
+
     }
 }
