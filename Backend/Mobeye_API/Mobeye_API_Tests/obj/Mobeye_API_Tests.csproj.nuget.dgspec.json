@@ -47,6 +47,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
@@ -125,9 +129,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "AutoMapper": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[10.1.1, )"
+              "version": "[8.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -146,10 +150,6 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[5.0.0, )"
             },

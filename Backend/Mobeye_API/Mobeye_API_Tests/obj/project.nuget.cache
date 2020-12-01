@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vfbgrmsM/VTS7i0QkOjU6iJAsz5l/jRHcn2qCOVXCGb/qhBqdxuN7mJPCvxsMQGpivhZ96/dMlTiq7nTbAtL1g==",
+  "dgSpecHash": "RkanbIgSYfvXk/rXtgr+8e5KaOAgXz6D6UppkbNBACL2AP4itO5L74ew68pQZRcHtUtMCf9nvaM+xR4qFGRUxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Krisi\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Krisi\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
+    "C:\\Users\\Krisi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -13,6 +14,7 @@
     "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
+    "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.0\\microsoft.entityframeworkcore.inmemory.5.0.0.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0\\microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.0\\microsoft.entityframeworkcore.sqlserver.5.0.0.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",

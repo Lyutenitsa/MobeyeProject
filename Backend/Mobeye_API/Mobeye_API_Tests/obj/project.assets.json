@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "AutoMapper/10.1.1": {
+      "AutoMapper/10.1.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -13,6 +13,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "[10.1.0, 11.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Options": "3.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "coverlet.collector/1.2.0": {
@@ -146,6 +160,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/5.0.0": {
@@ -1739,10 +1765,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "AutoMapper": "10.1.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
-          "Microsoft.Extensions.DependencyInjection": "5.0.0",
           "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
@@ -1758,20 +1783,33 @@
     }
   },
   "libraries": {
-    "AutoMapper/10.1.1": {
-      "sha512": "uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+    "AutoMapper/10.1.0": {
+      "sha512": "qxn9+PpQJD53PAUHGXW3HTcq6Rxbv3Pyq/jTcc60ZYwOygyqUfHIY3HBChKbDwtTHdlwlQqJeJ1ckVcaoytxxw==",
       "type": "package",
-      "path": "automapper/10.1.1",
+      "path": "automapper/10.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.10.1.1.nupkg.sha512",
+        "automapper.10.1.0.nupkg.sha512",
         "automapper.nuspec",
         "icon.png",
         "lib/net461/AutoMapper.dll",
         "lib/net461/AutoMapper.xml",
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.0": {
+      "sha512": "dQyGCAYcHbGuimVvCMu4Ea2S1oYOlgO9XfVdClmY5wgygJMZoS57emPzH0qNfknmtzMm4QbDO9i237W5IDjU1A==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
       ]
     },
     "coverlet.collector/1.2.0": {
@@ -2031,6 +2069,20 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/5.0.0": {
+      "sha512": "4p98EdOJXs56nr7N+UjKvwEhAMs0uiJnJjXFSgpiaq9ZbAa5PEMklC0Q6yDEg6I5B4/GvVgb5vMhjn6P2t15Bg==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.5.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/5.0.0": {
@@ -6156,6 +6208,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.EntityFrameworkCore.InMemory >= 5.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Mobeye_API >= 1.0.0",
       "coverlet.collector >= 1.2.0",
@@ -6211,6 +6264,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.5.0, )"

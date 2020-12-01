@@ -135,8 +135,10 @@ C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\bin\D
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\obj\Debug\netcoreapp3.1\Mobeye_API_Tests.csprojAssemblyReference.cache
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\obj\Debug\netcoreapp3.1\Mobeye_API_Tests.AssemblyInfoInputs.cache
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\obj\Debug\netcoreapp3.1\Mobeye_API_Tests.AssemblyInfo.cs
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\obj\Debug\netcoreapp3.1\Mobeye_API_Tests.csproj.CoreCompileInputs.cache
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\obj\Debug\netcoreapp3.1\Mobeye_API_Tests.csproj.CopyComplete
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\obj\Debug\netcoreapp3.1\Mobeye_API_Tests.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\obj\Debug\netcoreapp3.1\Mobeye_API_Tests.pdb
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\obj\Debug\netcoreapp3.1\Mobeye_API_Tests.genruntimeconfig.cache
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API_Tests\obj\Debug\netcoreapp3.1\Mobeye_API_Tests.csproj.CoreCompileInputs.cache
