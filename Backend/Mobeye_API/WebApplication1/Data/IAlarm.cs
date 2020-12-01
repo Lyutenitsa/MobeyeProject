@@ -10,7 +10,14 @@ namespace Mobeye_API.Data
     {
         void CreateAlarm(Alarm alarm);
         Alarm GetAlarm();
+        Alarm GetAlarmById(Guid id);
         IEnumerable<Alarm> GetAllAlarms();
+        IEnumerable<Alarm> GetAllAlarmsByPriority(int priority);
+        IEnumerable<Alarm> GetAllAlarmsByDevicename(string deviceName);
+        IEnumerable<Alarm> GetAllAlarmsByLocation(string location);
+        bool SaveChanges();
+        void UpdateAlarm(Alarm alarm);
+        void DeleteAlarm(Guid id);
 
     }
 }
