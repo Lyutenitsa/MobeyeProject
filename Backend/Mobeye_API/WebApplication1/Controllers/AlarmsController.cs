@@ -44,7 +44,7 @@ namespace Mobeye_API.Controllers
             }
             return NotFound();
         }
-        [HttpGet]
+        [HttpGet("last")]
         public ActionResult<AlarmReadDto> GetAlarm()
         {
             var alarm = _alarmRepo.GetAlarm();
@@ -54,7 +54,7 @@ namespace Mobeye_API.Controllers
             }
             return NotFound();
         }
-        [HttpGet("all")]
+        [HttpGet]
         public ActionResult<IEnumerable<AlarmReadDto>> GetAllAlarms()
         {
             var alarms = _alarmRepo.GetAllAlarms();
