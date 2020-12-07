@@ -12,6 +12,7 @@ namespace Mobeye_API.Services
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options) { }
         public DbSet<Alarm> Alarms { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Device> Devices { get; set; }
         public DbSet<AccountUser> AccountUsers { get; set; }
         public DbSet<CallKeyUser> CallKeyUsers { get; set; }
         public DbSet<ContactUser> ContactUsers { get; set; }

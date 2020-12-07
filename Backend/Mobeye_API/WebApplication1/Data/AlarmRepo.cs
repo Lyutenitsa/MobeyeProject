@@ -34,7 +34,7 @@ namespace Mobeye_API.Data
             _context.Alarms.Remove(alarm);
             _context.SaveChanges();
         }
-
+        // need to fix that
         public Alarm GetAlarm()
         {
             //gets the last alarm that was inserted in the table

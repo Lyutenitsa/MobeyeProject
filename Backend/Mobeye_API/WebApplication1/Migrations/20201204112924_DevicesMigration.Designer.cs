@@ -3,36 +3,23 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Mobeye_API.Services;
 
 namespace Mobeye_API.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    partial class ApplicationDBContextModelSnapshot : ModelSnapshot
+    [Migration("20201204112924_DevicesMigration")]
+    partial class DevicesMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
-
-            modelBuilder.Entity("DeviceUser", b =>
-                {
-                    b.Property<string>("DevicesId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<Guid>("OwnersId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("DevicesId", "OwnersId");
-
-                    b.HasIndex("OwnersId");
-
-                    b.ToTable("DeviceUser");
-                });
 
             modelBuilder.Entity("Mobeye_API.Models.Alarm", b =>
                 {
@@ -98,6 +85,9 @@ namespace Mobeye_API.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<Guid?>("AccountUserId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("Command")
                         .HasColumnType("nvarchar(max)");
 
@@ -105,6 +95,8 @@ namespace Mobeye_API.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AccountUserId");
 
                     b.ToTable("Devices");
                 });
@@ -120,6 +112,9 @@ namespace Mobeye_API.Migrations
 
                     b.Property<string>("AuthPrivateKey")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DeviceId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Discriminator")
                         .IsRequired()
@@ -140,6 +135,8 @@ namespace Mobeye_API.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AlarmId");
+
+                    b.HasIndex("DeviceId");
 
                     b.ToTable("Users");
 
@@ -167,21 +164,6 @@ namespace Mobeye_API.Migrations
                     b.HasDiscriminator().HasValue("ContactUser");
                 });
 
-            modelBuilder.Entity("DeviceUser", b =>
-                {
-                    b.HasOne("Mobeye_API.Models.Device", null)
-                        .WithMany()
-                        .HasForeignKey("DevicesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Mobeye_API.Models.User", null)
-                        .WithMany()
-                        .HasForeignKey("OwnersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("Mobeye_API.Models.Alarm", b =>
                 {
                     b.HasOne("Mobeye_API.Models.AccountUser", null)
@@ -193,11 +175,22 @@ namespace Mobeye_API.Migrations
                         .HasForeignKey("ContactUserId");
                 });
 
+            modelBuilder.Entity("Mobeye_API.Models.Device", b =>
+                {
+                    b.HasOne("Mobeye_API.Models.AccountUser", null)
+                        .WithMany("Devices")
+                        .HasForeignKey("AccountUserId");
+                });
+
             modelBuilder.Entity("Mobeye_API.Models.User", b =>
                 {
                     b.HasOne("Mobeye_API.Models.Alarm", null)
                         .WithMany("Recipients")
                         .HasForeignKey("AlarmId");
+
+                    b.HasOne("Mobeye_API.Models.Device", null)
+                        .WithMany("Owners")
+                        .HasForeignKey("DeviceId");
                 });
 
             modelBuilder.Entity("Mobeye_API.Models.Alarm", b =>
@@ -205,9 +198,16 @@ namespace Mobeye_API.Migrations
                     b.Navigation("Recipients");
                 });
 
+            modelBuilder.Entity("Mobeye_API.Models.Device", b =>
+                {
+                    b.Navigation("Owners");
+                });
+
             modelBuilder.Entity("Mobeye_API.Models.AccountUser", b =>
                 {
                     b.Navigation("Alarms");
+
+                    b.Navigation("Devices");
                 });
 
             modelBuilder.Entity("Mobeye_API.Models.ContactUser", b =>

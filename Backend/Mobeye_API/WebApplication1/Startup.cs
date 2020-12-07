@@ -32,6 +32,7 @@ namespace WebApplication1
             services.AddControllers();
             services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("cs")));
             services.AddScoped<IAlarm, AlarmRepo>();
+            services.AddScoped<IAccountUser, AccountUserRepo>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
