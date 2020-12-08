@@ -934,3 +934,4 @@ C:\Users\leonm\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\Mobey
 C:\Users\leonm\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\leonm\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\leonm\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\leonm\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\reset_button.png
