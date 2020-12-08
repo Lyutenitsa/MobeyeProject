@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobeyeApplication.Pages.AccountUser.BaseMasterDetail.Dashboard"
+             Title="Dashboard">
+    <StackLayout>
+        <Button Text="Device: X624 DateTime: 06/11/2020 15:47:34" Padding="10,45" />
+        <Button Text="Device: MK37 DateTime: 15/11/2020 11:03:29" Padding="10,45" />
+        <Button Text="Device: P3N9 DateTime: 19/11/2020 22:38:26" Padding="10,45" />
+        <Button Text="Device: L845 DateTime: 24/11/2020 16:43:51" Padding="10,45" />
+        <Button Text="Device: RJ6W DateTime: 27/11/2020 12:24:46" Padding="10,45" />
+    </StackLayout>
+</ContentPage>

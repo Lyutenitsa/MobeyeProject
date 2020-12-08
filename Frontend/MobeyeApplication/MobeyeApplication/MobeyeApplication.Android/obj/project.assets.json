@@ -1936,11 +1936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\MobeyeApplication.Android.csproj",
+      "projectUniqueName": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\MobeyeApplication.Android.csproj",
       "projectName": "MobeyeApplication.Android",
-      "projectPath": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\MobeyeApplication.Android.csproj",
+      "projectPath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\MobeyeApplication.Android.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\obj\\",
+      "outputPath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1961,8 +1961,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
-              "projectPath": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj"
+            "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
+              "projectPath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj"
             }
           }
         }

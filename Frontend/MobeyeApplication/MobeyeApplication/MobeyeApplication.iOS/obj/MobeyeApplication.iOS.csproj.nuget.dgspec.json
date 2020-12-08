@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj": {}
+    "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj": {}
   },
   "projects": {
-    "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj": {
+    "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj",
+        "projectUniqueName": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj",
         "projectName": "MobeyeApplication.iOS",
-        "projectPath": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj",
+        "projectPath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\obj\\",
+        "outputPath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
-                "projectPath": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj"
+              "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
+                "projectPath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
+    "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
+        "projectUniqueName": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
         "projectName": "MobeyeApplication",
-        "projectPath": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
+        "projectPath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Bojidar\\University\\Semester 3\\Group Project\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\obj\\",
+        "outputPath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
