@@ -20,6 +20,18 @@ namespace MobeyeApplication.Pages
         void OnUser1ButtonClicked(object sender, EventArgs args)
         {
             //App.Current.MainPage = new LoginPageAccUser();
+            App.Current.MainPage = new LoginPageAccUser();
+        }
+
+        void OnUser2ButtonClicked(object sender, EventArgs args)
+        {
+            //App.Current.MainPage = new LoginPageAccUser();
+            App.Current.MainPage = new CallKeyUser.CallKeyMainPage();
+        }
+
+        void OnUser3ButtonClicked(object sender, EventArgs args)
+        {
+            //App.Current.MainPage = new LoginPageAccUser();
             App.Current.MainPage = new CallKeyUser.CallKeyMainPage();
         }
     }

@@ -13,10 +13,10 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <Button Text="" Grid.Column="0" Margin="0,0,110,0"/>
-                <Image Source="reset_button.png" Scale="0.2"/>
+                <Button Text="Refresh" Grid.Column="0" WidthRequest="70" Margin="0,0,110,0"/>
+                <!--<Image Source="reset_button.png" Scale="0.2"/>--> 
 
-                <Button Text="" Grid.Column="1" Margin="110,0,0,0"/>
+                <Button Text="Log out" Grid.Column="1" WidthRequest="70"  Margin="110,0,0,0"/>
 
             </Grid>
 
