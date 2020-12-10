@@ -7,6 +7,6 @@ namespace Mobeye_API.Models
 {
     public class CallKeyUser : User
     {
-
+        //the call key user has the list of devices(doors) to which he has permision from the main user class
     }
 }
