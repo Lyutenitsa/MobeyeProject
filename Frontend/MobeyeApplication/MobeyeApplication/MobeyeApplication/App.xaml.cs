@@ -2,17 +2,21 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MobeyeApplication.Pages;
+using MobeyeApplication.MobeyeRESTClient.Data;
+using MobeyeApplication.MobeyeRESTClient.Views;
 
 namespace MobeyeApplication
 {
     public partial class App : Application
     {
+        public static AlarmManager alarmManager { get; private set; }
         public App()
         {
-            InitializeComponent();
+            alarmManager = new AlarmManager(new AlarmRepo());
 
             //MainPage = new MainPage();
-            MainPage = new LoginPage();
+            //  MainPage = new LoginPage();
+            MainPage = new NavigationPage(new AlarmsPage());
         }
 
         protected override void OnStart()
