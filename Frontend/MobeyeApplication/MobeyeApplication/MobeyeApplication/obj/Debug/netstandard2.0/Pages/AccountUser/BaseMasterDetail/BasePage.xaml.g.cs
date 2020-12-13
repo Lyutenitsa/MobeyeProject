@@ -20,9 +20,13 @@ namespace MobeyeApplication.Pages.AccountUser.BaseMasterDetail {
         private global::MobeyeApplication.Pages.AccountUser.BaseMasterDetail.BasePageMaster MasterPage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.NavigationPage navBar;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(BasePage));
             MasterPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MobeyeApplication.Pages.AccountUser.BaseMasterDetail.BasePageMaster>(this, "MasterPage");
+            navBar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.NavigationPage>(this, "navBar");
         }
     }
 }

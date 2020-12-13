@@ -62,3 +62,6 @@ C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplicat
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeRESTClient\Views\AlarmsPage.xaml.g.cs
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.csproj.CoreCompileInputs.cache
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\WelcomePage.xaml.g.cs
+C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\SettingsPage.xaml.g.cs
+C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\FirstTimeSettingsPage.xaml.g.cs
