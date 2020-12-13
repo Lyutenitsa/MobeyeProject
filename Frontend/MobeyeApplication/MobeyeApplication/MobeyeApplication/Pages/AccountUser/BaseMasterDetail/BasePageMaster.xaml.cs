@@ -35,6 +35,7 @@ namespace MobeyeApplication.Pages.AccountUser.BaseMasterDetail
                 {
                     new BasePageMasterMenuItem { Id = 0, Title = "Dashboard" },
                     new BasePageMasterMenuItem { Id = 1, Title = "Account" },
+                    new BasePageMasterMenuItem {Id = 2, Title="MobeyePortal"},
                 });
             }
 

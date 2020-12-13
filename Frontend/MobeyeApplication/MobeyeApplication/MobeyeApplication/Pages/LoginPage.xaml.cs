@@ -16,7 +16,24 @@ namespace MobeyeApplication.Pages
         {
             InitializeComponent();
         }
+        private void OnRegisterButtonClicked(object sender, EventArgs args)
+        {
+            var smsCode = Convert.ToInt32(SMSCode.Text);
+            if (smsCode == 1234)
+            {
+                App.Current.MainPage = new AccountUser.BaseMasterDetail.BasePage();
+            }
+            else if (smsCode == 0000)
+            {
+                App.Current.MainPage = new CallKeyUser.CallKeyMainPage();
+            }
+            else if (smsCode == 1111)
+            {
+                App.Current.MainPage = new WelcomePage();
+            }
 
+
+        }
         void OnUser1ButtonClicked(object sender, EventArgs args)
         {
             //App.Current.MainPage = new LoginPageAccUser();

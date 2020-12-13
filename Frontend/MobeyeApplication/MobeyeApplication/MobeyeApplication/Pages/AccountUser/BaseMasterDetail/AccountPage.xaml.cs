@@ -16,5 +16,9 @@ namespace MobeyeApplication.Pages.AccountUser.BaseMasterDetail
         {
             InitializeComponent();
         }
+        void OnEditProfileButtonClicked(object sender, EventArgs args)
+        {
+            Device.OpenUri(new Uri("https://www.mymobeye.eu/"));
+        }
     }
 }
