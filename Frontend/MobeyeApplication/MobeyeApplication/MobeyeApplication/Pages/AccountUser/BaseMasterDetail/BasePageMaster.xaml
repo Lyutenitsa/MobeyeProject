@@ -3,20 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MobeyeApplication.Pages.AccountUser.BaseMasterDetail"
              x:Class="MobeyeApplication.Pages.AccountUser.BaseMasterDetail.BasePageMaster"
              Title="Master">
-  <StackLayout>
+    <!--This is for the menu when you click on the burger menu icon -->
+    <StackLayout>
         <ListView x:Name="MenuItemsListView"
               SeparatorVisibility="None"
               HasUnevenRows="true">
             <ListView.Header>
-                <Frame BackgroundColor="#2196F3" Padding="20" CornerRadius="0">
-                    <Label Text="Menu" Style="{DynamicResource Key=SubtitleStyle}" FontAttributes="Bold" FontSize="36"/>
+                <Frame BackgroundColor="#29590D" Padding="20" CornerRadius="0" >
+                    <Label Text="Menu" Style="{DynamicResource Key=SubtitleStyle}" FontAttributes="Bold" FontSize="36" TextColor="White"/>
                 </Frame>
             </ListView.Header>
 
             <ListView.ItemsSource>
                 <Array Type="{x:Type local:BasePageMasterMenuItem}">
-                    <local:BasePageMasterMenuItem Title="Dashboard" TargetType="{x:Type local:Dashboard} " />
+                    <local:BasePageMasterMenuItem Title="Dashboard" TargetType="{x:Type local:Dashboard}" />
                     <local:BasePageMasterMenuItem Title="Account" TargetType="{x:Type local:AccountPage}" />
+                    <local:BasePageMasterMenuItem Title="Settings" TargetType="{x:Type local:SettingsPage}"/>
                 </Array>
             </ListView.ItemsSource>
 
@@ -27,7 +29,8 @@
                             <Label VerticalOptions="FillAndExpand" 
                             VerticalTextAlignment="Center" 
                             Text="{Binding Title}" 
-                            FontSize="32"/>
+                            FontSize="32"
+                                />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

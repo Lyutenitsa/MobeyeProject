@@ -3,11 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobeyeApplication.Pages.AccountUser.BaseMasterDetail.Dashboard"
              Title="Dashboard">
-    <StackLayout>
-        <Button Text="Device: X624 DateTime: 06/11/2020 15:47:34" Padding="10,45" />
-        <Button Text="Device: MK37 DateTime: 15/11/2020 11:03:29" Padding="10,45" />
-        <Button Text="Device: P3N9 DateTime: 19/11/2020 22:38:26" Padding="10,45" />
-        <Button Text="Device: L845 DateTime: 24/11/2020 16:43:51" Padding="10,45" />
-        <Button Text="Device: RJ6W DateTime: 27/11/2020 12:24:46" Padding="10,45" />
+    <StackLayout BackgroundColor="White">
+        <Label Text="Recent Alarms" FontSize="30" Margin="100,10" TextColor="Black"></Label>
+        <BoxView Color="White" HeightRequest="5"></BoxView>
+        <BoxView Color="Gray" HeightRequest="1" Opacity="0.5" HorizontalOptions="Center" WidthRequest="400"></BoxView>
+        <BoxView Color="White" HeightRequest="5"></BoxView>
+        <Button Text="Device: X624 DateTime: 06/11/2020 15:47:34" Padding="10,45" FontSize="18" BackgroundColor="#7FB069" TextColor="#ffff"/>
+        <Button Text="Device: MK37 DateTime: 15/11/2020 11:03:29" Padding="10,45" FontSize="18" BackgroundColor="#7FB069" TextColor="#ffff"/>
+        <Button Text="Device: P3N9 DateTime: 19/11/2020 22:38:26" Padding="10,45" FontSize="18" BackgroundColor="#7FB069" TextColor="#ffff"/>
+        <Button Text="Device: L845 DateTime: 24/11/2020 16:43:51" Padding="10,45" FontSize="18" BackgroundColor="#7FB069" TextColor="#ffff"/>
     </StackLayout>
 </ContentPage>
