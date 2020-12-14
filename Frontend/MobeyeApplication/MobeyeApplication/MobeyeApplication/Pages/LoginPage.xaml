@@ -8,9 +8,9 @@
         <cardView:CardView BackgroundColor="White" CardViewHeightRequest="700" Margin="10,20">
             <cardView:CardView.CardViewContent>
                 <StackLayout>
-                    <Image Source="mobey_logo.png" WidthRequest="190" HeightRequest="190" Margin="100,80" />
-                    <Entry x:Name="SMSCode" IsPassword="True" Placeholder="Input your SMS Code" Margin="50,15" ></Entry>
-                    <Button Text="Sign in" Margin="40,15" CornerRadius="20" BackgroundColor="#29590D" TextColor="White" FontSize="Medium" Clicked="OnRegisterButtonClicked" />
+                    <Image Source="mobeyenobacklogo.png" WidthRequest="190" HeightRequest="190" Margin="100,80" />
+                    <Entry x:Name="SMSCode" IsPassword="True" Placeholder="Input your Code" Margin="50,15" ></Entry>
+                    <Button Text="Sign in" Margin="40,15" CornerRadius="20" BackgroundColor="#29590D" TextColor="White" FontSize="Medium" Clicked="OnRegisterButtonClicked"/>
                 </StackLayout>
 
             </cardView:CardView.CardViewContent>

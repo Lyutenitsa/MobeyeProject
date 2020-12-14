@@ -3764,11 +3764,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
+      "projectUniqueName": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
       "projectName": "MobeyeApplication",
-      "projectPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
+      "projectPath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
       "packagesPath": "C:\\Users\\Krisi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\obj\\",
+      "outputPath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

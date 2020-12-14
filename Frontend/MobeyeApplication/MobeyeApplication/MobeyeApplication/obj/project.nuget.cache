@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iOfg1wqEZltU5Se6edNZU8pZAbs3OhZmVXc8OKjqZm8ETlJAmDDfPRgSPn2v0OZPdhnS2qTu4ZBDeG2+UPA20A==",
+  "dgSpecHash": "vsy+FDfUyyBX7iHYRjCvTi9CELgW3vyXNYEAtriqGmJ5wwfNJYu3dYCOtesve2JVoBzhXdo6i6oCX0bg+KaE5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
+  "projectFilePath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

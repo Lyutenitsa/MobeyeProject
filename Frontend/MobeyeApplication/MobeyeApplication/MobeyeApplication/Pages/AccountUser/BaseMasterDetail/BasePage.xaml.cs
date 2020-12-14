@@ -16,6 +16,7 @@ namespace MobeyeApplication.Pages.AccountUser.BaseMasterDetail
         {
             InitializeComponent();
             MasterPage.ListView.ItemSelected += ListView_ItemSelected;
+            navBar.BarBackgroundColor = Color.FromHex("#29590D");
         }
 
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobeyeApplication.Pages.ContactUser.BaseMasterDetail.ContactMasterDetailPageMaster"
+             xmlns:local="clr-namespace:MobeyeApplication.Pages.ContactUser.BaseMasterDetail"
+             Title="Master">
+    <!--This is for the menu that appears after you have clicked on the burger menu icon-->
+    <StackLayout>
+        <ListView x:Name="MenuItemsListView"
+              SeparatorVisibility="None"
+              HasUnevenRows="true">
+            <ListView.Header>
+                <Frame BackgroundColor="#29590D" Padding="20" CornerRadius="0" >
+                    <Label Text="Menu" Style="{DynamicResource Key=SubtitleStyle}" FontAttributes="Bold" FontSize="36" TextColor="White"/>
+                </Frame>
+            </ListView.Header>
+
+            <ListView.ItemsSource>
+                <Array Type="{x:Type local:ContactMasterDetailPageMasterMenuItem}">
+                    <local:ContactMasterDetailPageMasterMenuItem Title="Dashboard" IconSource="home.png" TargetType="{x:Type local:Dashboard}"/>
+                    <local:ContactMasterDetailPageMasterMenuItem Title="Chat" IconSource="chat.png" TargetType="{x:Type local:Chat}"/>
+                    <local:ContactMasterDetailPageMasterMenuItem Title="Settings" IconSource="settings.png" TargetType="{x:Type local:SettingsPage}"/>
+                </Array>
+            </ListView.ItemsSource>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding IconSource}" />
+                            <Label Grid.Column="1" Text="{Binding Title}" FontSize="32" Margin="5,0,0,0" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

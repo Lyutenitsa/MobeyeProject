@@ -2306,11 +2306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\MobeyeApplication.Android.csproj",
+      "projectUniqueName": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\MobeyeApplication.Android.csproj",
       "projectName": "MobeyeApplication.Android",
-      "projectPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\MobeyeApplication.Android.csproj",
+      "projectPath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\MobeyeApplication.Android.csproj",
       "packagesPath": "C:\\Users\\Krisi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\obj\\",
+      "outputPath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2331,8 +2331,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
-              "projectPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj"
+            "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
+              "projectPath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj"
             }
           }
         }
