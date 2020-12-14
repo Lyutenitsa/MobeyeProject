@@ -31,6 +31,14 @@ namespace MobeyeApplication.Pages
             {
                 App.Current.MainPage = new WelcomePage();
             }
+            else if (smsCode == 9999)
+            {
+                App.Current.MainPage = new ContactUser.BaseMasterDetail.ContactMasterDetailPage();
+            }
+            else
+            {
+                var alert = DisplayAlert("Please enter a valid SMS Code", "Yes", "No");
+            }
 
 
         }

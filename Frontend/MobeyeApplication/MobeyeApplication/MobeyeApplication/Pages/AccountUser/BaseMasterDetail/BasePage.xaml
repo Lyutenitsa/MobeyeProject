@@ -7,9 +7,10 @@
         <pages:BasePageMaster x:Name="MasterPage" />
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
-        <NavigationPage x:Name="navBar">
+        <NavigationPage x:Name="navBar" BarBackgroundColor="#29590D">
             <x:Arguments>
                 <pages:Dashboard/>
+              
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

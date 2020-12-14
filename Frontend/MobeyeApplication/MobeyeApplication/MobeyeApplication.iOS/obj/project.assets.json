@@ -1687,11 +1687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj",
+      "projectUniqueName": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj",
       "projectName": "MobeyeApplication.iOS",
-      "projectPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj",
+      "projectPath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj",
       "packagesPath": "C:\\Users\\Krisi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\obj\\",
+      "outputPath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1712,8 +1712,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
-              "projectPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj"
+            "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
+              "projectPath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj"
             }
           }
         }

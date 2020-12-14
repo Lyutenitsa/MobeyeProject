@@ -16,22 +16,24 @@
 
             <ListView.ItemsSource>
                 <Array Type="{x:Type local:BasePageMasterMenuItem}">
-                    <local:BasePageMasterMenuItem Title="Dashboard" TargetType="{x:Type local:Dashboard}" />
-                    <local:BasePageMasterMenuItem Title="Account" TargetType="{x:Type local:AccountPage}" />
-                    <local:BasePageMasterMenuItem Title="Settings" TargetType="{x:Type local:SettingsPage}"/>
+                    <local:BasePageMasterMenuItem Title="Dashboard" IconSource="home.png" TargetType="{x:Type local:Dashboard}"  />
+                    <local:BasePageMasterMenuItem Title="Account" IconSource="user.png" TargetType="{x:Type local:AccountPage}" />
+                    <local:BasePageMasterMenuItem Title="Settings" IconSource="settings.png"  TargetType="{x:Type local:SettingsPage}"/>
+                    <local:BasePageMasterMenuItem Title="Chat" IconSource="chat.png" TargetType="{x:Type local:Chat}"/>
                 </Array>
             </ListView.ItemsSource>
 
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
-                            <Label VerticalOptions="FillAndExpand" 
-                            VerticalTextAlignment="Center" 
-                            Text="{Binding Title}" 
-                            FontSize="32"
-                                />
-                        </StackLayout>
+                        <Grid Padding="5,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding IconSource}" />
+                            <Label Grid.Column="1" Text="{Binding Title}" FontSize="32" Margin="5,0,0,0" />
+                        </Grid>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

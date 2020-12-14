@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mMCvkSzbUBx7ARMwFnl/VEXUqeP99DrZlKciPs6a+1NQZDDUH+9Ec4+fNGGYnXPIKkXqpufug9oVtIHxI2h9FQ==",
+  "dgSpecHash": "bHP3RmsnlHpoOZM8n8maGWyDzZpX+JPfgrgmwop7Ez5U88myQmvon6vnq3larEooIieupDyBOfXx4mBmLf1aZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\MobeyeApplication.Android.csproj",
+  "projectFilePath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.Android\\MobeyeApplication.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Krisi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
