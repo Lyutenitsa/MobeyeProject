@@ -37,10 +37,12 @@ namespace Mobeye_API.Data
             {
                 throw new ArgumentNullException();
             }
-            CallKeyUser u = new CallKeyUser();
-            u.Role = "CallKey User";
-            u.PhoneIMEI = phoneIMEI;
-            u.SMSCode = registrationCodeSMS;
+            CallKeyUser u = new CallKeyUser
+            {
+                Role = "CallKey User",
+                PhoneIMEI = phoneIMEI,
+                SMSCode = registrationCodeSMS
+            };
             _context.CallKeyUsers.Add(u);
         }
     }
