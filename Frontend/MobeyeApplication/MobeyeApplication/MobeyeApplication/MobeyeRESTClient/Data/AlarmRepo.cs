@@ -10,26 +10,22 @@ using Xamarin.Forms;
 
 namespace MobeyeApplication.MobeyeRESTClient.Data
 {
-    public class AlarmRepo : IAlarm
+    public class AlarmRepo //: IAlarm
     {
         public HttpClient client;
         public List<Alarm> Alarms { get; private set; }
         public AlarmRepo()
         {
-
             //client = new HttpClient(DependencyService.Get<IHttpClientHandlerService>().GetInsecureHandler());
 
             client = new HttpClient();
-
-
-
         }
         public Task GetAlarmById(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<List<Alarm>> GetAllAlarms()
+        /*public async Task<List<Alarm>> GetAllAlarms()
         {
             Alarms = new List<Alarm>();
             Uri uri = new Uri(string.Format(Constants.RESTURLAlarm, string.Empty));
@@ -91,6 +87,6 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
                 Debug.WriteLine(@"\tERROR {0}", ex.Message);
             }
 
-        }
+        }*/
     }
 }

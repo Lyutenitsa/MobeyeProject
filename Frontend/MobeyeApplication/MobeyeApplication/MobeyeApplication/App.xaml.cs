@@ -12,10 +12,7 @@ namespace MobeyeApplication
         public static AlarmManager alarmManager { get; private set; }
         public App()
         {
-            alarmManager = new AlarmManager(new AlarmRepo());
-
-            //MainPage = new MainPage();
-            //  MainPage = new LoginPage();
+            //MainPage = new LoginPage();
             MainPage = new NavigationPage(new AlarmsPage());
         }
 

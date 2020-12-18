@@ -5437,23 +5437,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IUSTIN\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
+      "projectUniqueName": "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
       "projectName": "Mobeye_API",
-      "projectPath": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
-      "packagesPath": "C:\\Users\\IUSTIN\\.nuget\\packages\\",
-      "outputPath": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\obj\\",
+      "projectPath": "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\IUSTIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5466,7 +5466,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -5478,7 +5477,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -5527,7 +5525,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

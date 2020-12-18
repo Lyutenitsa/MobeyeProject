@@ -6,8 +6,6 @@ D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\Mobeye
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.AssemblyInfoInputs.cache
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.AssemblyInfo.cs
-D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.csproj.CoreCompileInputs.cache
-D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.dll
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\ref\MobeyeApplication.dll
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.pdb
@@ -62,3 +60,11 @@ C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplicat
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeRESTClient\Views\AlarmsPage.xaml.g.cs
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.csproj.CoreCompileInputs.cache
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeRESTClient\Views\AlarmsPage.xaml.g.cs
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\SelectUserPage.xaml.g.cs
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\bin\Debug\netstandard2.0\Mono.Android.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\bin\Debug\netstandard2.0\Mono.Android.pdb
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\bin\Debug\netstandard2.0\Mono.Android.xml
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.csproj.CopyComplete
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.csproj.CoreCompileInputs.cache
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\XamlC.stamp

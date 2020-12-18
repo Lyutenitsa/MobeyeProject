@@ -2,10 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
+using MobeyeApplication.MobeyeRESTClient;
+using MobeyeApplication.MobeyeRESTClient.JSON_objects;
 
 namespace MobeyeApplication.MobeyeRESTClient.Views
 {
@@ -16,10 +21,22 @@ namespace MobeyeApplication.MobeyeRESTClient.Views
         {
             InitializeComponent();
         }
-        protected async override void OnAppearing()
+        protected override void OnAppearing()
         {
             base.OnAppearing();
-            AlarmView.ItemsSource = await App.alarmManager.GetAllAlarms();
+            GetPrivateKey();
         }
-    }
+
+        public async void GetPrivateKey()
+        {
+            string requestURI = "https://www.api.mymobeye.com/api/registerphone";
+            HttpClient client = HttpHelper.CreateClient();
+
+            var regPhone = new RegPhone("bbbb2222", "22222");            
+            var responce = await client.PostAsync(requestURI, HttpHelper.ObjectToHttpContent(regPhone));
+
+            var resString = await responce.Content.ReadAsStringAsync();
+            List<string> idk = new List<string>();
+        }
+    }   
 }
