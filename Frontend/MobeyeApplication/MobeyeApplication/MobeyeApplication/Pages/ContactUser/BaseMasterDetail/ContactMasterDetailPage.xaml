@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobeyeApplication.Pages.ContactUser.BaseMasterDetail.ContactMasterDetailPage"
+             xmlns:pages="clr-namespace:MobeyeApplication.Pages.ContactUser.BaseMasterDetail">
+    <MasterDetailPage.Master>
+        <pages:ContactMasterDetailPageMaster x:Name="MasterPage" />
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage BarBackgroundColor="#29590D">
+            <x:Arguments>
+                <pages:Dashboard />
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
