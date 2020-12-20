@@ -1,108 +1,106 @@
 ﻿using Mobeye_API.Models;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
 namespace Mobeye_API_Tests.ModelsTest
 {
-    public class AccountUserTest
+    public class ContactUserTest
     {
-        private AccountUser _accountUser;
-        public AccountUserTest()
+        private ContactUser contactUser;
+        public ContactUserTest()
         {
-            _accountUser = new AccountUser()
+            contactUser = new ContactUser()
             {
                 Id = Guid.NewGuid(),
                 PhoneIMEI = "123",
                 SMSCode = "12345",
                 RegistrationPrivateKey = "abcd",
-                AuthPrivateKey = "safe",
-                Role = "Account User",
+                AuthPrivateKey = "key",
+                Role = "Contact User",
                 Devices = null,
                 Alarms = null
             };
         }
-
         [Fact]
         public void GetPhoneIMEI()
         {
-            Assert.Equal("123", _accountUser.PhoneIMEI);
+            Assert.Equal("123", contactUser.PhoneIMEI);
         }
         [Fact]
         public void SetPhoneIMEI()
         {
-            _accountUser.PhoneIMEI = "987";
-            Assert.Equal("987", _accountUser.PhoneIMEI);
+            contactUser.PhoneIMEI = "987";
+            Assert.Equal("987", contactUser.PhoneIMEI);
         }
         [Fact]
         public void GetSMSCode()
         {
-            Assert.Equal("12345", _accountUser.SMSCode);
+            Assert.Equal("12345", contactUser.SMSCode);
         }
         [Fact]
         public void SetSMSCode()
         {
-            _accountUser.SMSCode = "0000";
-            Assert.Equal("0000", _accountUser.SMSCode);
+            contactUser.SMSCode = "0000";
+            Assert.Equal("0000", contactUser.SMSCode);
         }
         [Fact]
         public void GetRegistrationPrivateKey()
         {
-            Assert.Equal("abcd", _accountUser.RegistrationPrivateKey);
+            Assert.Equal("abcd", contactUser.RegistrationPrivateKey);
         }
         [Fact]
         public void SetRegistrationPrivateKey()
         {
-            _accountUser.RegistrationPrivateKey = "qwert";
-            Assert.Equal("qwert", _accountUser.RegistrationPrivateKey);
+            contactUser.RegistrationPrivateKey = "qwert";
+            Assert.Equal("qwert", contactUser.RegistrationPrivateKey);
         }
         [Fact]
         public void GetAuthPrivateKey()
         {
-            Assert.Equal("safe", _accountUser.AuthPrivateKey);
+            Assert.Equal("key", contactUser.AuthPrivateKey);
         }
         [Fact]
         public void SetAuthPrivateKey()
         {
-            _accountUser.AuthPrivateKey = "safe1";
-            Assert.Equal("safe1", _accountUser.AuthPrivateKey);
+            contactUser.AuthPrivateKey = "brb";
+            Assert.Equal("brb", contactUser.AuthPrivateKey);
         }
         [Fact]
         public void GetRole()
         {
-            Assert.Equal("Account User", _accountUser.Role);
+            Assert.Equal("Contact User", contactUser.Role);
         }
         [Fact]
         public void SetRole()
         {
-            _accountUser.Role = "Contact User";
-            Assert.Equal("Contact User", _accountUser.Role);
+            contactUser.Role = "Account User";
+            Assert.Equal("Account User", contactUser.Role);
         }
         [Fact]
         public void GetDevices()
         {
-            Assert.Null(_accountUser.Devices);
+            Assert.Null(contactUser.Devices);
         }
         [Fact]
         public void SetDevices()
         {
             List<Device> devices = new List<Device>();
             Device newDevice = new Device();
-            newDevice.Id = "hello";
-            newDevice.Devicename = "alarmdetector";
-            newDevice.Devicename = "open"; //here i think it should be command
+            newDevice.Id = "door";
+            newDevice.Devicename = "rustyDoor";
+            newDevice.Command = "open";
             devices.Add(newDevice);
             ICollection<Device> allDevices = devices;
-            _accountUser.Devices = allDevices;
-            Assert.Equal(allDevices, _accountUser.Devices);
+            contactUser.Devices = allDevices;
+            Assert.Equal(allDevices, contactUser.Devices);
 
         }
         [Fact]
         public void GetAlarms()
         {
-            Assert.Null(_accountUser.Alarms);
+            Assert.Null(contactUser.Alarms);
         }
         [Fact]
         public void SetAlarms()
@@ -126,51 +124,51 @@ namespace Mobeye_API_Tests.ModelsTest
             };
             alarms.Add(_alarm);
             ICollection<Alarm> allAlarms = alarms;
-            _accountUser.Alarms = allAlarms;
-            Assert.Equal(allAlarms, _accountUser.Alarms);
+            contactUser.Alarms = allAlarms;
+            Assert.Equal(allAlarms, contactUser.Alarms);
         }
         [Fact]
         public void IdTypeTest()
         {
-            Assert.IsType<Guid>(_accountUser.Id);
+            Assert.IsType<Guid>(contactUser.Id);
         }
         [Fact]
         public void PhoneIMEITypeTest()
         {
-            Assert.IsType<string>(_accountUser.PhoneIMEI);
+            Assert.IsType<string>(contactUser.PhoneIMEI);
         }
         [Fact]
         public void SMSCodeTypeTest()
         {
-            Assert.IsType<string>(_accountUser.SMSCode);
+            Assert.IsType<string>(contactUser.SMSCode);
         }
         [Fact]
         public void RegistrationPrivateKeyTypeTest()
         {
-            Assert.IsType<string>(_accountUser.RegistrationPrivateKey);
+            Assert.IsType<string>(contactUser.RegistrationPrivateKey);
         }
         [Fact]
         public void AuthPrivateKeyTypeTest()
         {
-            Assert.IsType<string>(_accountUser.AuthPrivateKey);
+            Assert.IsType<string>(contactUser.AuthPrivateKey);
         }
         [Fact]
         public void RoleTypeTest()
         {
-            Assert.IsType<string>(_accountUser.Role);
+            Assert.IsType<string>(contactUser.Role);
         }
         [Fact]
         public void DevicesTypeTest()
         {
             List<Device> devices = new List<Device>();
             Device newDevice = new Device();
-            newDevice.Id = "hello";
-            newDevice.Devicename = "alarmdetector";
-            newDevice.Devicename = "open";
+            newDevice.Id = "door";
+            newDevice.Devicename = "rustyDoor";
+            newDevice.Command = "open";
             devices.Add(newDevice);
             ICollection<Device> allDevices = devices;
-            _accountUser.Devices = allDevices;
-            Assert.IsAssignableFrom<ICollection<Device>>(_accountUser.Devices);
+            contactUser.Devices = allDevices;
+            Assert.IsAssignableFrom<ICollection<Device>>(contactUser.Devices);
         }
         [Fact]
         public void AlarmsTypeTest()
@@ -195,9 +193,9 @@ namespace Mobeye_API_Tests.ModelsTest
             };
             alarms.Add(_alarm);
             ICollection<Alarm> allAlarms = alarms;
-            _accountUser.Alarms = allAlarms;
-            Assert.IsAssignableFrom<ICollection<Alarm>>(_accountUser.Alarms);
+            contactUser.Alarms = allAlarms;
+            Assert.IsAssignableFrom<ICollection<Alarm>>(contactUser.Alarms);
         }
-
     }
+
 }
