@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5MHlWjb8ZFmFY0tycIfLdBFWiP/8G6IUY371xeBYK9oBm3jd8nH7zh9oiKJGeJPGFIzh91ySc3MusjNHzdwjFg==",
+  "dgSpecHash": "HvUo9jmwkBKw6MVNEhM3sTdoXtcFopjgzY4PPEgNjr1GFsx+JWm9PTKHd738XdZAv4FpUiGqeMcmi8pbe4xrlQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.1\\microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",

@@ -13,7 +13,7 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
         {
             alarmService = service;
         }
-        public Task<List<Alarm>> GetAllAlarms()
+        public Task<IEnumerable<Alarm>> GetAllAlarms()
         {
             return alarmService.GetAllAlarms();
         }

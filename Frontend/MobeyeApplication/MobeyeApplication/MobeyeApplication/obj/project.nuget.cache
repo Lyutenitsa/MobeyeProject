@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vsy+FDfUyyBX7iHYRjCvTi9CELgW3vyXNYEAtriqGmJ5wwfNJYu3dYCOtesve2JVoBzhXdo6i6oCX0bg+KaE5g==",
+  "dgSpecHash": "DO1OE+Verm9zmYTqnBF6kttYcMdDcVn3a3U+jIHF4H1N7XK4l2aeu3uXWoeTIVGUWKQq69g+Sb4EnLbpUX3atw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.1\\microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512",
     "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

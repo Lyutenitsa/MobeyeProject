@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "68zv02WbMm1BZb2Yg6ZputR4Mx+STADHGNfBQF3gcb3OhNCRhzG+NtkjSJx1ltLwFrbGYZhot8SQaSsV43+kPg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\MobeyeApplication\\Mobeye_API\\Mobeye_API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Krisi\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.1\\microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

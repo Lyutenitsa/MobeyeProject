@@ -5,13 +5,55 @@
              Title="Dashboard">
     <StackLayout BackgroundColor="White">
         <Label Text="Recent Alarms" FontSize="30" Margin="100,10" TextColor="Black"></Label>
-
         <BoxView Color="White" HeightRequest="5"></BoxView>
         <BoxView Color="Gray" HeightRequest="1" Opacity="0.5" HorizontalOptions="Center" WidthRequest="400"></BoxView>
         <BoxView Color="White" HeightRequest="5"></BoxView>
-        <Button Text="Device: X624 DateTime: 06/11/2020 15:47:34" Padding="10,45" FontSize="18" BackgroundColor="#326B0F" TextColor="#ffff"/>
-        <Button Text="Device: MK37 DateTime: 15/11/2020 11:03:29" Padding="10,45" FontSize="18" BackgroundColor="#326B0F" TextColor="#ffff"/>
-        <Button Text="Device: P3N9 DateTime: 19/11/2020 22:38:26" Padding="10,45" FontSize="18" BackgroundColor="#326B0F" TextColor="#ffff"/>
-        <Button Text="Device: L845 DateTime: 24/11/2020 16:43:51" Padding="10,45" FontSize="18" BackgroundColor="#326B0F" TextColor="#ffff"/>
+        <Picker x:Name="select" Margin="0,5,0,20" Title="View Recent Alarms by: "></Picker>
+
+
+        <Grid BackgroundColor="#183608" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="130"></ColumnDefinition>
+                <ColumnDefinition Width="135"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Label Text="Device name" Grid.Column="0" FontSize="Medium" FontAttributes="Bold" BackgroundColor="#183608" TextColor="White" HorizontalTextAlignment="Center" />
+
+            <Label Text="Alarm Message" HorizontalOptions="Fill"  Grid.Column="1"  FontSize="Medium" FontAttributes="Bold" BackgroundColor="#183608" TextColor="White" HorizontalTextAlignment="Center" Margin="1"/>
+            <Label Text="Time of Alarm" HorizontalOptions="Fill"  Grid.Column="2"  FontSize="Medium" FontAttributes="Bold" BackgroundColor="#183608" TextColor="White" HorizontalTextAlignment="Center" Margin="1"/>
+
+        </Grid>
+
+        <ListView x:Name="AlarmView" Margin="20" HasUnevenRows="true" HeightRequest="600" SeparatorVisibility="None"  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell >
+                        <ViewCell.View>
+                            <Grid  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="70" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0" Text="{Binding Devicename}"
+                                Margin="1"/>
+                                <Label Grid.Column="1" Text="{Binding Alarmtext}"
+                             Margin="1"  />
+                                <Label Grid.Column="2" Text="{Binding TimeOfAlarm}"
+                               Margin="1"  />
+
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 </ContentPage>

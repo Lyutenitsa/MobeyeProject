@@ -13,6 +13,14 @@
                                  Orientation="Horizontal">
                         <Label Text="{Binding Devicename}"
                                VerticalTextAlignment="Center"/>
+                        <Label Text="{Binding Location}"
+                               VerticalTextAlignment="Center"/>
+                        <Label Text="{Binding Alarmtext}"
+                               VerticalTextAlignment="Center"/>
+                        <Label Text="{Binding TimeOfAlarm}"
+                               VerticalTextAlignment="Center"/>
+                        <Label Text="{Binding Value}"
+                               VerticalTextAlignment="Center"/>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
