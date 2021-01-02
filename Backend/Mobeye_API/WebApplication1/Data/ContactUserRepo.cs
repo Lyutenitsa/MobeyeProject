@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Mobeye_API.Models;
+﻿using Mobeye_API.Models;
 using Mobeye_API.Services;
 using System;
 using System.Collections.Generic;
@@ -8,43 +7,45 @@ using System.Threading.Tasks;
 
 namespace Mobeye_API.Data
 {
-    public class CallKeyUserRepo : ICallKeyUser
+    public class ContactUserRepo : IContactUser
     {
         private readonly ApplicationDBContext _context;
-        public CallKeyUserRepo(ApplicationDBContext context)
+        public ContactUserRepo(ApplicationDBContext context)
         {
             _context = context;
         }
-
         public User CheckAuthorization(string role, IEnumerable<string> devices, string authPrivateKey)
         {
-            //throw new NotImplementedException();
-            if (role != "CallKey User" && authPrivateKey == null)
+            if (role != "Contact User" && authPrivateKey == null)
             {
                 throw new ArgumentNullException();
             }
             return _context.Users.FirstOrDefault(p => p.Role == role && p.Devices == devices && p.AuthPrivateKey == authPrivateKey);
         }
 
-        public void OpenDoor(string phoneIMEI, string authPrivateKey, string deviceID, string command)
+        public void MessageStatus(string phoneIMEI, string authPrivateKey, string messageId, string status)
         {
-            Device door = _context.Devices.FirstOrDefault(p => p.Id == deviceID);
-            door.Command = command;
+            throw new NotImplementedException();
         }
 
         public void Register(string phoneIMEI, string registrationCodeSMS)
         {
-            if(phoneIMEI == null && registrationCodeSMS == null)
+            if (phoneIMEI == null && registrationCodeSMS == null)
             {
                 throw new ArgumentNullException();
             }
-            CallKeyUser u = new CallKeyUser
+            ContactUser u = new ContactUser
             {
-                Role = "CallKey User",
+                Role = "Contact User",
                 PhoneIMEI = phoneIMEI,
                 SMSCode = registrationCodeSMS
             };
-            _context.CallKeyUsers.Add(u);
+            _context.ContactUsers.Add(u);
+        }
+
+        public void SendMessage(Alarm alarm)
+        {
+            throw new NotImplementedException();
         }
     }
 }
