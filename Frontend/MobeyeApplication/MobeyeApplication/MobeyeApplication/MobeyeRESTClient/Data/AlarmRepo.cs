@@ -3,7 +3,9 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -12,63 +14,58 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
 {
     public class AlarmRepo : IAlarm
     {
-        public HttpClient client;
-        public List<Alarm> Alarms { get; private set; }
+        private static AlarmRepo _alarmServiceClient;
+        public IEnumerable<Alarm> Alarms;
+        public static AlarmRepo alarmServiceClient
+        {
+            get
+            {
+                if (_alarmServiceClient == null)
+                {
+                    _alarmServiceClient = new AlarmRepo();
+                }
+                return _alarmServiceClient;
+            }
+        }
+        private JsonSerializer _serializer = new JsonSerializer();
+        private HttpClient client;
+
         public AlarmRepo()
         {
 
-            //client = new HttpClient(DependencyService.Get<IHttpClientHandlerService>().GetInsecureHandler());
-
             client = new HttpClient();
+            client.BaseAddress = new Uri(Constants.RESTURLAlarm);
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+
 
 
 
         }
-        public Task GetAlarmById(Guid id)
+        public async Task<IEnumerable<Alarm>> GetAllAlarms()
         {
-            throw new NotImplementedException();
-        }
+            /* Uri uri = new Uri(string.Format(Constants.RESTURLAlarm, string.Empty));*/
 
-        public async Task<List<Alarm>> GetAllAlarms()
-        {
-            Alarms = new List<Alarm>();
-            Uri uri = new Uri(string.Format(Constants.RESTURLAlarm, string.Empty));
-            try
+            var response = await client.GetAsync(client.BaseAddress);
+            /*
+              var responseRead = await response.Content.ReadAsStringAsync();
+              var json = JsonConvert.DeserializeObject<IEnumerable<Alarm>>(responseRead);
+              return json;*/
+
+            using (var stream = await response.Content.ReadAsStreamAsync())
+            using (var reader = new StreamReader(stream))
+            using (var json = new JsonTextReader(reader))
             {
-                HttpResponseMessage response = await client.GetAsync(uri);
-                if (response.IsSuccessStatusCode)
-                {
-                    string content = await response.Content.ReadAsStringAsync();
-                    Alarms = JsonConvert.DeserializeObject<List<Alarm>>(content);
-                }
+                var jsoncontent = _serializer.Deserialize<IEnumerable<Alarm>>(json);
+                return jsoncontent;
             }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(@"\tERROR {0}", ex.Message);
-            }
-            return Alarms;
+
         }
 
         public async Task<List<Alarm>> GetAllAlarmsByPriority(int priority)
         {
-            Alarms = new List<Alarm>();
-            //the uri is not exactly the same
-            Uri uri = new Uri(string.Format(Constants.RESTURLAlarm, priority));
-            try
-            {
-                HttpResponseMessage response = await client.GetAsync(uri);
-                if (response.IsSuccessStatusCode)
-                {
-                    string content = await response.Content.ReadAsStringAsync();
-                    Alarms = JsonConvert.DeserializeObject<List<Alarm>>(content);
-                }
 
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(@"\tERROR {0}", ex.Message);
-            }
-            return Alarms;
+            throw new NotImplementedException();
         }
 
         public async Task UpdateAlarm(Alarm alarm)
@@ -91,6 +88,11 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
                 Debug.WriteLine(@"\tERROR {0}", ex.Message);
             }
 
+        }
+
+        public Task GetAlarmById(Guid id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

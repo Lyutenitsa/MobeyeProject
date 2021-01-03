@@ -8,7 +8,7 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
 {
     public interface IAlarm
     {
-        Task<List<Alarm>> GetAllAlarms();
+        Task<IEnumerable<Alarm>> GetAllAlarms();
         Task GetAlarmById(Guid id);
         Task UpdateAlarm(Alarm alarm);
         Task<List<Alarm>> GetAllAlarmsByPriority(int priority);

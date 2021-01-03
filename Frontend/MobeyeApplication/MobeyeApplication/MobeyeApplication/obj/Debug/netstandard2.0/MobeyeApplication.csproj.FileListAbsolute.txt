@@ -95,10 +95,10 @@ C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\nets
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\WelcomePage.xaml.g.cs
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.AssemblyInfoInputs.cache
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.AssemblyInfo.cs
-C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.csproj.CoreCompileInputs.cache
-C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.dll
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\ref\MobeyeApplication.dll
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.pdb
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\Chat.xaml.g.cs
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\ContactUser\BaseMasterDetail\Chat.xaml.g.cs
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.csproj.CoreCompileInputs.cache
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\XamlC.stamp

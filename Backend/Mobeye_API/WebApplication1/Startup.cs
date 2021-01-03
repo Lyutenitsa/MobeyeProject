@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Mobeye_API.Chat.Hubs;
 using Mobeye_API.Data;
 using Mobeye_API.Services;
 
@@ -30,6 +31,7 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSignalR();
             services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("cs")));
             services.AddScoped<IAlarm, AlarmRepo>();
             services.AddScoped<IAccountUser, AccountUserRepo>();
@@ -49,10 +51,14 @@ namespace WebApplication1
             app.UseRouting();
 
             app.UseAuthorization();
+            //this method is absolete and will be removed soon, so that's why I have added the endpoints.mapHub below
+            app.UseSignalR((routes => { routes.MapHub<ChatHub>("/chathub"); }));
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHub<ChatHub>("/chathub");
+
             });
         }
     }

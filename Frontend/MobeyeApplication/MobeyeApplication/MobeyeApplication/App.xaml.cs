@@ -5,16 +5,19 @@ using MobeyeApplication.Pages;
 using MobeyeApplication.MobeyeRESTClient.Data;
 using MobeyeApplication.MobeyeRESTClient.Views;
 
+
 namespace MobeyeApplication
 {
     public partial class App : Application
     {
-        public static AlarmManager alarmManager { get; private set; }
+
         static MobeyeLocalDb database;
+
         public App()
         {
-            alarmManager = new AlarmManager(new AlarmRepo());
 
+
+            // MainPage = new AlarmsPage();
             //MainPage = new MainPage();
             //  MainPage = new LoginPage();
             MainPage = new NavigationPage(new LoginPage())
@@ -22,6 +25,7 @@ namespace MobeyeApplication
                 BarBackgroundColor = Color.FromHex("#29590D"),
                 BarTextColor = Color.White
             };
+            // MainPage = new Chat.Pages.Chat { BindingContext = new ChatViewModel() };
         }
         public static MobeyeLocalDb Database
         {
