@@ -29,11 +29,26 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
         }
         private JsonSerializer _serializer = new JsonSerializer();
         private HttpClient client;
+        public static HttpClient CreateClient()
+        {
+            HttpClient client;
+            var httpClientHandler = new HttpClientHandler();
 
+            httpClientHandler.ServerCertificateCustomValidationCallback =
+           (message, cert, chain, errors) => { return true; };
+
+            client = new HttpClient(httpClientHandler);
+            return client;
+        }
         public API_Services()
         {
-            client = new HttpClient();
-            client.BaseAddress = new Uri("https://www.api.mymobeye.com/api/");
+            var httpClientHandler = new HttpClientHandler();
+
+            httpClientHandler.ServerCertificateCustomValidationCallback =
+           (message, cert, chain, errors) => { return true; };
+
+            client = new HttpClient(httpClientHandler);
+            client.BaseAddress = new Uri("https://www.api.mymobeye.com/api");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
@@ -68,7 +83,9 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
         }
 
         //Send Command Request -> a.k.a Open Door for call key users
-        public async Task SendCommand(string phoneId, string deviceId, string privateKey, string command)
+        // works fine
+
+        public async Task<SendCommandResponse> SendCommand(string phoneId, int deviceId, string privateKey, string command)
         {
             try
             {
@@ -79,9 +96,16 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
                     PrivateKey = privateKey,
                     Command = command
                 };
-                var content = new StringContent(JsonConvert.SerializeObject(sendCommandRequest), Encoding.UTF8, "application/json");
-                var request = await client.PostAsync("control", content);
+                var jsonString = JsonConvert.SerializeObject(sendCommandRequest);
+                var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+                var request = await client.PostAsync("https://www.api.mymobeye.com/api/control", content);
                 request.EnsureSuccessStatusCode();
+                var returned_response = request.StatusCode;
+                SendCommandResponse sendCommandResponse = new SendCommandResponse()
+                {
+                    StatusCode = returned_response
+                };
+                return sendCommandResponse;
             }
             catch (Exception ex)
             {
@@ -89,6 +113,7 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
             }
         }
         //Check Authorization Request
+        // for some reason -> returns null :) 
         public async Task<CheckAuthorizationResponse> CheckAuthorization(string phoneId, string privateKey)
         {
             try
@@ -98,8 +123,9 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
                     PhoneId = phoneId,
                     PrivateKey = privateKey
                 };
-                var content = new StringContent(JsonConvert.SerializeObject(checkAuthorizationRequest), Encoding.UTF8, "application/json");
-                var request = await client.PostAsync("phoneauthorization", content);
+                var jsonString = JsonConvert.SerializeObject(checkAuthorizationRequest);
+                var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+                var request = await client.PostAsync("https://www.api.mymobeye.com/api/phoneauthorization", content);
                 request.EnsureSuccessStatusCode();
                 using (var stream = await request.Content.ReadAsStreamAsync())
                 using (var reader = new StreamReader(stream))
@@ -109,6 +135,11 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
                     // we set up in the preferences the user role and the second private key -> they will later be used to either display pages based on the role or in the requests
                     Preferences.Set("User_Role", jsonContent.UserRole);
                     Preferences.Set("Private_Key", jsonContent.PrivateKey);
+                    foreach (Device d in jsonContent.Devices)
+                    {
+                        Preferences.Set("Door_Id", d.DeviceId);
+                        Preferences.Set("Command", d.Command);
+                    }
                     return jsonContent;
                 }
 

@@ -1963,3 +1963,7 @@ C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\De
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.IO.Pipelines.dll
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Threading.Channels.dll
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Threading.Tasks.Extensions.dll
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\refresh.png
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key3.png
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key1.png
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key2.png

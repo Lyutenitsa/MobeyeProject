@@ -37,10 +37,6 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
             client.BaseAddress = new Uri(Constants.RESTURLAlarm);
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-
-
-
-
         }
         public async Task<IEnumerable<Alarm>> GetAllAlarms()
         {
@@ -68,31 +64,41 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
             throw new NotImplementedException();
         }
 
+        //for our api :)
         public async Task UpdateAlarm(Alarm alarm)
         {
-            Uri uri = new Uri(string.Format(Constants.RESTURLAlarm, string.Empty));
             try
             {
                 string json = JsonConvert.SerializeObject(alarm);
                 StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
 
-                HttpResponseMessage response = await client.PutAsync(uri, content);
-                if (response.IsSuccessStatusCode)
-                {
-                    Debug.WriteLine(@"\tAlarm successfully saved.");
-                }
-
+                HttpResponseMessage response = await client.PutAsync(client.BaseAddress, content);
+                response.EnsureSuccessStatusCode();
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(@"\tERROR {0}", ex.Message);
+                throw new Exception(ex.Message);
             }
 
+        }
+        public Alarm ReturnAlarmByMessageId(int messageId)
+        {
+            Alarm wantedAlarm = null;
+            foreach (Alarm alarm in Alarms)
+            {
+                if (alarm.MessageId == messageId)
+                {
+                    wantedAlarm = alarm;
+                    return wantedAlarm;
+                }
+            }
+            return null;
         }
 
         public Task GetAlarmById(Guid id)
         {
             throw new NotImplementedException();
         }
+
     }
 }

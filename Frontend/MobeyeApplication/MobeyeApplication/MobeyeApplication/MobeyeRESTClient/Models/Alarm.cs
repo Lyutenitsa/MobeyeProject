@@ -21,11 +21,12 @@ namespace MobeyeApplication.MobeyeRESTClient.Models
         public DateTime TimeOfAlarm { get; set; }
         public string Value { get; set; }
 
-        public string MessageId { get; set; }
-
+        public int MessageId { get; set; }
+        //need to fix this when the authorization is made
         public ICollection<User> Recipients { get; set; }
 
         public bool Escalation { get; set; }
+        // those fields are for message status -> if the user has confirmed/denied the alarm
         public string Confirmed_Denied { get; set; }
         public DateTime Confirmed_at { get; set; }
     }

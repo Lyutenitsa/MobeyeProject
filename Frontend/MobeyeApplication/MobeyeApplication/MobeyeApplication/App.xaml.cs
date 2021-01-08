@@ -15,17 +15,11 @@ namespace MobeyeApplication
 
         public App()
         {
-
-
-            // MainPage = new AlarmsPage();
-            //MainPage = new MainPage();
-            //  MainPage = new LoginPage();
             MainPage = new NavigationPage(new LoginPage())
             {
                 BarBackgroundColor = Color.FromHex("#29590D"),
                 BarTextColor = Color.White
             };
-            // MainPage = new Chat.Pages.Chat { BindingContext = new ChatViewModel() };
         }
         public static MobeyeLocalDb Database
         {

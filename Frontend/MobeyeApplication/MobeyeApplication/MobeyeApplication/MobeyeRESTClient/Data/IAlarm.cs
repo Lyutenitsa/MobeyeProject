@@ -12,5 +12,6 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
         Task GetAlarmById(Guid id);
         Task UpdateAlarm(Alarm alarm);
         Task<List<Alarm>> GetAllAlarmsByPriority(int priority);
+
     }
 }

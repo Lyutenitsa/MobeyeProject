@@ -37,7 +37,7 @@ namespace MobeyeApplication.Pages
             }
             else
             {
-                var alert = DisplayAlert("Please enter a valid SMS Code", "Yes", "No");
+                DisplayAlert("Please enter a valid SMS Code", "Yes", "No");
             }
 
 

@@ -9,7 +9,7 @@ namespace MobeyeApplication.MobeyeRESTClient.Requests
         // unique id of the phone (IMEI)
         public string PhoneId { get; set; }
         // the id of the device that needs to be controlled
-        public string DeviceId { get; set; }
+        public int DeviceId { get; set; }
         // private key of the user
         public string PrivateKey { get; set; }
         // command for the device

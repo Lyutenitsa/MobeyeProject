@@ -14,7 +14,6 @@ namespace MobeyeApplication.MobeyeRESTClient.Models
         public string RegistrationPrivateKey { get; set; } // send back from Mobeye after registration request
         public string AuthPrivateKey { get; set; } // send back from Mobeye after authorization request
         public string Role { get; set; }
-        public ICollection<Device> Devices { get; set; }
         public ICollection<Alarm> Alarms { get; set; }
     }
 }

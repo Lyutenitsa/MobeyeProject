@@ -126,3 +126,5 @@ C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhone
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhone\Debug\MobeyeApplication.iOS.csproj.CopyComplete
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhone\Debug\MobeyeApplication.iOS.exe
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhone\Debug\MobeyeApplication.iOS.pdb
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\bin\iPhone\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\bin\iPhone\Debug\Microsoft.AspNet.SignalR.Client.pdb

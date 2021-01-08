@@ -24,7 +24,7 @@ namespace MobeyeApplication.Droid
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) =>
             {
-                if (cert.Issuer.Equals("CN=localhost"))
+                if (cert.Issuer.Equals("https://www.api.mymobeye.com/api/control"))
                     return true;
                 return errors == System.Net.Security.SslPolicyErrors.None;
             };
