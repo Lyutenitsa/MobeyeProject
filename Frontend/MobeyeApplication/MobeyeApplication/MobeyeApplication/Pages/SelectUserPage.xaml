@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobeyeApplication.Pages.SelectUserPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20" Padding="50">
+            <Image Source="mobey_logo.jpg" />
+            <Grid Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                </Grid.RowDefinitions>
+                <Button Text="User 1" Grid.Column="0" Margin="0,20,0,0" Clicked="OnUser1ButtonClicked"/>
+                <Button Text="User 2" Grid.Column="1" Margin="0,20,0,0" Clicked="OnUser2ButtonClicked"/>
+                <Button Text="User 3" Grid.Column="2" Margin="0,20,0,0" Clicked="OnUser3ButtonClicked"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

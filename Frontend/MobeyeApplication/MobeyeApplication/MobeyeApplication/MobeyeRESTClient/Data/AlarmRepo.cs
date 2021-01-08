@@ -12,12 +12,13 @@ using Xamarin.Forms;
 
 namespace MobeyeApplication.MobeyeRESTClient.Data
 {
-    public class AlarmRepo : IAlarm
+    public class AlarmRepo //: IAlarm
     {
         private static AlarmRepo _alarmServiceClient;
         public IEnumerable<Alarm> Alarms;
         public static AlarmRepo alarmServiceClient
         {
+
             get
             {
                 if (_alarmServiceClient == null)
@@ -36,6 +37,8 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
             client = new HttpClient();
             client.BaseAddress = new Uri(Constants.RESTURLAlarm);
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+            client = new HttpClient();
 
         }
         public async Task<IEnumerable<Alarm>> GetAllAlarms()
@@ -79,6 +82,7 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
             {
                 throw new Exception(ex.Message);
             }
+
 
         }
         public Alarm ReturnAlarmByMessageId(int messageId)

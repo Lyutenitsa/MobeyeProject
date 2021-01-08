@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {}
+    "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
+    "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
+        "projectUniqueName": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
         "projectName": "MobeyeApplication",
-        "projectPath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
-        "packagesPath": "C:\\Users\\Krisi\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\obj\\",
+        "projectPath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\User\\Desktop\\Mobeye\\Frontend\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Krisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

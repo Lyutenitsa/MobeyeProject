@@ -17,7 +17,6 @@ D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\Mobeye
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\R.txt
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\R.cs.flag
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\MobeyeApplication.Android.csproj.CoreCompileInputs.cache
-D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\XamlC.stamp
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\MobeyeApplication.Android.csproj.CopyComplete
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\MobeyeApplication.Android.dll
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\MobeyeApplication.Android.pdb
@@ -1421,6 +1420,27 @@ C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplicat
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\RectView.java
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShapeRenderer_2.java
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShapeView.java
+<<<<<<< HEAD
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\reset_button.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\DragAndDropGestureHandler.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\EllipseRenderer.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\EllipseView.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\GradientStrokeDrawable.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\GradientStrokeDrawable_GradientShaderFactory.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\LineRenderer.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\LineView.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PathRenderer.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PathView.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PolygonRenderer.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PolygonView.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PolylineRenderer.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PolylineView.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\RectangleRenderer.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\RectView.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShapeRenderer_2.java
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShapeView.java
+=======
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\CardView.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Resources.ResourceManager.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
@@ -1941,6 +1961,7 @@ C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\De
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+<<<<<<< HEAD
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNet.SignalR.Client.dll
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNet.SignalR.Client.pdb
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNetCore.Connections.Abstractions.dll
@@ -1963,7 +1984,32 @@ C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\De
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.IO.Pipelines.dll
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Threading.Channels.dll
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Threading.Tasks.Extensions.dll
+<<<<<<< HEAD
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\refresh.png
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key3.png
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key1.png
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key2.png
+=======
+=======
+>>>>>>> b0bfbfef92b1471115be3ca351e783bd4f72bf98
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\globe.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\enter.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\chat.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\user.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\settings.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\home.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\logout.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\mobeyenobacklogo.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\CardView.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\SQLite-net.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_v2.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\SQLitePCLRaw.core.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\SQLitePCLRaw.lib.e_sqlite3.android.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Buffers.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Memory.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Resources.ResourceManager.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
+>>>>>>> MobeyeRestClient
+>>>>>>> fa04b4bd6990e92fbfd28c9fe64a957e41914bfc
