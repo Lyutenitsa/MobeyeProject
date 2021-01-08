@@ -12,12 +12,13 @@ using Xamarin.Forms;
 
 namespace MobeyeApplication.MobeyeRESTClient.Data
 {
-    public class AlarmRepo : IAlarm
+    public class AlarmRepo //: IAlarm
     {
         private static AlarmRepo _alarmServiceClient;
         public IEnumerable<Alarm> Alarms;
         public static AlarmRepo alarmServiceClient
         {
+<<<<<<< HEAD
             get
             {
                 if (_alarmServiceClient == null)
@@ -41,11 +42,17 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
 
 
 
+=======
+            //client = new HttpClient(DependencyService.Get<IHttpClientHandlerService>().GetInsecureHandler());
+
+            client = new HttpClient();
+>>>>>>> MobeyeRestClient
         }
         public async Task<IEnumerable<Alarm>> GetAllAlarms()
         {
             /* Uri uri = new Uri(string.Format(Constants.RESTURLAlarm, string.Empty));*/
 
+<<<<<<< HEAD
             var response = await client.GetAsync(client.BaseAddress);
             /*
               var responseRead = await response.Content.ReadAsStringAsync();
@@ -55,6 +62,22 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
             using (var stream = await response.Content.ReadAsStreamAsync())
             using (var reader = new StreamReader(stream))
             using (var json = new JsonTextReader(reader))
+=======
+        /*public async Task<List<Alarm>> GetAllAlarms()
+        {
+            Alarms = new List<Alarm>();
+            Uri uri = new Uri(string.Format(Constants.RESTURLAlarm, string.Empty));
+            try
+            {
+                HttpResponseMessage response = await client.GetAsync(uri);
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    Alarms = JsonConvert.DeserializeObject<List<Alarm>>(content);
+                }
+            }
+            catch (Exception ex)
+>>>>>>> MobeyeRestClient
             {
                 var jsoncontent = _serializer.Deserialize<IEnumerable<Alarm>>(json);
                 return jsoncontent;
@@ -88,11 +111,15 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
                 Debug.WriteLine(@"\tERROR {0}", ex.Message);
             }
 
+<<<<<<< HEAD
         }
 
         public Task GetAlarmById(Guid id)
         {
             throw new NotImplementedException();
         }
+=======
+        }*/
+>>>>>>> MobeyeRestClient
     }
 }

@@ -1,10 +1,16 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\Krisi\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Krisi\\.nuget\\packages",
       "C:\\Microsoft\\Xamarin\\NuGet",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+=======
+      "C:\\Users\\User\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\User\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
+>>>>>>> MobeyeRestClient
     ]
   }
 }

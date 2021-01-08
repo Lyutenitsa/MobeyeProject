@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System;
 
 namespace MobeyeApplication.Droid
 {
@@ -16,6 +17,7 @@ namespace MobeyeApplication.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
+            System.Net.ServicePointManager.ServerCertificateValidationCallback += (o, cert, chain, errors) => true;
 
             base.OnCreate(savedInstanceState);
 

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj": {}
   },
   "projects": {
@@ -12,13 +13,30 @@
         "projectPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj",
         "packagesPath": "C:\\Users\\Krisi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\obj\\",
+=======
+    "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj",
+        "projectName": "Mobeye_API_Tests",
+        "projectPath": "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\obj\\",
+>>>>>>> MobeyeRestClient
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Krisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> MobeyeRestClient
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +50,13 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {
                 "projectPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj"
+=======
+              "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {
+                "projectPath": "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj"
+>>>>>>> MobeyeRestClient
               }
             }
           }
@@ -90,6 +113,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -98,13 +122,27 @@
         "projectPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
         "packagesPath": "C:\\Users\\Krisi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\obj\\",
+=======
+    "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
+        "projectName": "Mobeye_API",
+        "projectPath": "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\User\\Desktop\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\obj\\",
+>>>>>>> MobeyeRestClient
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Krisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> MobeyeRestClient
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

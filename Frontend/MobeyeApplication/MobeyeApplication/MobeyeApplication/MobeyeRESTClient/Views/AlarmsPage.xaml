@@ -8,11 +8,9 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <StackLayout Padding="20,0,0,0"
-                                 HorizontalOptions="StartAndExpand"
-                                 Orientation="Horizontal">
-                        <Label Text="{Binding Devicename}"
+                    <Label Text="{Binding Devicename}"
                                VerticalTextAlignment="Center"/>
+<<<<<<< HEAD
                         <Label Text="{Binding Location}"
                                VerticalTextAlignment="Center"/>
                         <Label Text="{Binding Alarmtext}"
@@ -22,6 +20,8 @@
                         <Label Text="{Binding Value}"
                                VerticalTextAlignment="Center"/>
                     </StackLayout>
+=======
+>>>>>>> MobeyeRestClient
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
