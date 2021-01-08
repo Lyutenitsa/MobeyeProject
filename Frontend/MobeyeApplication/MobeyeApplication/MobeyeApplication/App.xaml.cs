@@ -18,6 +18,8 @@ namespace MobeyeApplication
                 BarBackgroundColor = Color.FromHex("#29590D"),
                 BarTextColor = Color.White
             };
+
+            //MainPage = new AlarmsPage();
         }
         public static MobeyeLocalDb Database
         {

@@ -37,6 +37,12 @@ namespace MobeyeApplication.MobeyeRESTClient.Views
 
             var resString = await responce.Content.ReadAsStringAsync();
             List<string> idk = new List<string>();
+
+
+            for(int i = 0; i<=0; i++)
+            {
+                AlarmView.ItemsSource = idk;
+            }
         }
     }   
 }
