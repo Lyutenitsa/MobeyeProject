@@ -35,18 +35,18 @@
                         <ViewCell.View>
                             <Grid  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="70" />
+                                    <RowDefinition Height="75" />
                                     <RowDefinition Height="*" />
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*" />
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
-                                <Label Grid.Column="0" Text="{Binding Devicename}"
+                                <Label FontSize="20" Grid.Column="0" Text="{Binding Devicename}"
                                 Margin="1"/>
-                                <Label Grid.Column="1" Text="{Binding Alarmtext}"
+                                <Label FontSize="20" Grid.Column="1" Text="{Binding Alarmtext}"
                              Margin="1"  />
-                                <Label Grid.Column="2" Text="{Binding TimeOfAlarm}"
+                                <Label FontSize="20" Grid.Column="2" Text="{Binding TimeOfAlarm}"
                                Margin="1"  />
 
                             </Grid>
@@ -55,5 +55,18 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0,0,0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="0" Text="Confirm Alarm" BackgroundColor="#29590D" TextColor="White" FontSize="20" FontAttributes="Bold" Clicked="OnConfirmAlarmButtonClickedAsync"></Button>
+            <Button  HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="1" Text="Deny Alarm" BackgroundColor="#29590D" TextColor="White" FontSize="20" FontAttributes="Bold" Clicked="OnDenyAlarmButtonClicked"></Button>
+        </Grid>
     </StackLayout>
 </ContentPage>
