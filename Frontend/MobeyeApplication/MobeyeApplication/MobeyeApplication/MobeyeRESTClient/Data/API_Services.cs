@@ -64,9 +64,9 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
                     Response = response,
                     PrivateKey = privateKey
                 };
-
-                var content = new StringContent(JsonConvert.SerializeObject(messageStatusRequest), Encoding.UTF8, "application/json");
-                var request = await client.PostAsync("messagestatus", content);
+                var jsonContent = JsonConvert.SerializeObject(messageStatusRequest);
+                var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+                var request = await client.PostAsync("https://www.api.mymobeye.com/api/messagestatus", content);
                 request.EnsureSuccessStatusCode();
                 var returned_response = await request.Content.ReadAsStringAsync();
                 MessageStatusResponse messageStatusResponse = new MessageStatusResponse()
@@ -159,8 +159,9 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
                     PhoneId = phoneId,
                     Code = code
                 };
-                var content = new StringContent(JsonConvert.SerializeObject(registerRequest), Encoding.UTF8, "application/json");
-                var request = await client.PostAsync("registerphone", content);
+                var jsonString = JsonConvert.SerializeObject(registerRequest);
+                var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+                var request = await client.PostAsync("https://www.api.mymobeye.com/api/registerphone", content);
                 request.EnsureSuccessStatusCode();
                 using (var stream = await request.Content.ReadAsStreamAsync())
                 using (var reader = new StreamReader(stream))
