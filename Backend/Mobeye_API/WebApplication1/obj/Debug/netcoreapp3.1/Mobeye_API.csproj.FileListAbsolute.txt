@@ -7,63 +7,38 @@ C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\De
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.runtimeconfig.dev.json
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.pdb
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.AssemblyInfoInputs.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.AssemblyInfo.cs
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.RazorTargetAssemblyInfo.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\Mobeye_API.StaticWebAssets.Manifest.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\Mobeye_API.StaticWebAssets.xml
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.pdb
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.genruntimeconfig.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\bin\Debug\netcoreapp3.1\Mobeye_API.exe
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\bin\Debug\netcoreapp3.1\Mobeye_API.deps.json
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\bin\Debug\netcoreapp3.1\Mobeye_API.runtimeconfig.json
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\bin\Debug\netcoreapp3.1\Mobeye_API.runtimeconfig.dev.json
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\bin\Debug\netcoreapp3.1\Mobeye_API.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\bin\Debug\netcoreapp3.1\Mobeye_API.pdb
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.csprojAssemblyReference.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.AssemblyInfoInputs.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.AssemblyInfo.cs
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.csproj.CoreCompileInputs.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.RazorTargetAssemblyInfo.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\staticwebassets\Mobeye_API.StaticWebAssets.Manifest.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\staticwebassets\Mobeye_API.StaticWebAssets.xml
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.pdb
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\Mobeye_API\obj\Debug\netcoreapp3.1\Mobeye_API.genruntimeconfig.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csprojAssemblyReference.cache
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csproj.CopyComplete
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Humanizer.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
@@ -79,143 +54,15 @@ C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\De
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\AutoMapper.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.exe
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.deps.json
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.runtimeconfig.json
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.runtimeconfig.dev.json
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.pdb
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\AutoMapper.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Humanizer.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csprojAssemblyReference.cache
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.AssemblyInfoInputs.cache
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.AssemblyInfo.cs
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csproj.CoreCompileInputs.cache
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.MvcApplicationPartsAssemblyInfo.cache
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\Mobeye_API.StaticWebAssets.Manifest.cache
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\Mobeye_API.StaticWebAssets.xml
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\scopedcss\bundle\Mobeye_API.styles.css
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.RazorTargetAssemblyInfo.cache
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csproj.CopyComplete
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.dll
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.pdb
-D:\git reps\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.genruntimeconfig.cache
-<<<<<<< HEAD
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Client.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.dll
-C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.AssemblyInfoInputs.cache
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.AssemblyInfo.cs
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csproj.CoreCompileInputs.cache
 C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.MvcApplicationPartsAssemblyInfo.cache
-=======
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.exe
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.deps.json
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.runtimeconfig.json
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.runtimeconfig.dev.json
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.pdb
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\AutoMapper.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Humanizer.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csprojAssemblyReference.cache
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.AssemblyInfoInputs.cache
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.AssemblyInfo.cs
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csproj.CoreCompileInputs.cache
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.MvcApplicationPartsAssemblyInfo.cache
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.RazorTargetAssemblyInfo.cache
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csproj.CopyComplete
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\Mobeye_API.StaticWebAssets.Manifest.cache
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\Mobeye_API.StaticWebAssets.xml
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.dll
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.pdb
-D:\Users\User\Desktop\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.genruntimeconfig.cache
->>>>>>> MobeyeRestClient
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.RazorTargetAssemblyInfo.cache
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csproj.CopyComplete
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\Mobeye_API.StaticWebAssets.Manifest.cache
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\Mobeye_API.StaticWebAssets.xml
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.pdb
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.genruntimeconfig.cache
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.csprojAssemblyReference.cache
