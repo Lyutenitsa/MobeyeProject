@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {}
+    "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {
+    "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
+        "projectUniqueName": "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
         "projectName": "Mobeye_API",
-        "projectPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
-        "packagesPath": "C:\\Users\\Krisi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\obj\\",
+        "projectPath": "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
+        "packagesPath": "C:\\Users\\lutfi\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Krisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\lutfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -46,6 +44,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             },
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
@@ -94,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

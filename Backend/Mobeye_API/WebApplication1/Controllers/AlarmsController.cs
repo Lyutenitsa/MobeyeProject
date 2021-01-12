@@ -59,6 +59,7 @@ namespace Mobeye_API.Controllers
         {
             var alarms = _alarmRepo.GetAllAlarms();
             var model = _mapper.Map<IEnumerable<AlarmReadDto>>(alarms);
+            Console.WriteLine("This is the get method\n");
 
             return Ok(model);
         }
