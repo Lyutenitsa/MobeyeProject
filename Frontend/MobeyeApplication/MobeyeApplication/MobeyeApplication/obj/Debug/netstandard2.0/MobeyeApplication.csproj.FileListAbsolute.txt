@@ -108,10 +108,8 @@ C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\nets
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.pdb
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\Chat.xaml.g.cs
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\ContactUser\BaseMasterDetail\Chat.xaml.g.cs
-<<<<<<< HEAD
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\MobeyeApplication.csproj.CoreCompileInputs.cache
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\XamlC.stamp
-=======
 >>>>>>> b0bfbfef92b1471115be3ca351e783bd4f72bf98
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\Chat.xaml.g.cs
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Debug\netstandard2.0\Pages\AccountUser\BaseMasterDetail\SettingsPage.xaml.g.cs

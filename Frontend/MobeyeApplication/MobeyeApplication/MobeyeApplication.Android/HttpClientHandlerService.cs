@@ -17,7 +17,7 @@ using Xamarin.Forms;
 [assembly: Dependency(typeof(HttpClientHandlerService))]
 namespace MobeyeApplication.Droid
 {
-    public class HttpClientHandlerService : IHttpClientHandlerService
+    public class HttpClientHandlerService : MobeyeRESTClient.IHttpClientHandlerService
     {
         public HttpClientHandler GetInsecureHandler()
         {
