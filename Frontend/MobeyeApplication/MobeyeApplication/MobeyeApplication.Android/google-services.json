@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "597208324872",
+    "project_id": "mobeye-pushnotifications",
+    "storage_bucket": "mobeye-pushnotifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597208324872:android:cce04046aa398e16edaabd",
+        "android_client_info": {
+          "package_name": "com.companyname.mobeyeapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597208324872-1d3rbh1fjmn4ohnn9qt7akbnplip5agf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy6FmgoAvBHB8RUYGVk8v19_10-3-nfAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597208324872-1d3rbh1fjmn4ohnn9qt7akbnplip5agf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597208324872:android:14d03b5331037c63edaabd",
+        "android_client_info": {
+          "package_name": "com.mobeye.mobileApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597208324872-1d3rbh1fjmn4ohnn9qt7akbnplip5agf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy6FmgoAvBHB8RUYGVk8v19_10-3-nfAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597208324872-1d3rbh1fjmn4ohnn9qt7akbnplip5agf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

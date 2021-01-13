@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="gcm_defaultSenderId" translatable="false">597208324872</string>
+  <string name="google_app_id" translatable="false">1:597208324872:android:cce04046aa398e16edaabd</string>
+  <string name="default_web_client_id" translatable="false">597208324872-1d3rbh1fjmn4ohnn9qt7akbnplip5agf.apps.googleusercontent.com</string>
+  <string name="google_api_key" translatable="false">AIzaSyBy6FmgoAvBHB8RUYGVk8v19_10-3-nfAg</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBy6FmgoAvBHB8RUYGVk8v19_10-3-nfAg</string>
+  <string name="google_storage_bucket" translatable="false">mobeye-pushnotifications.appspot.com</string>
+  <string name="project_id" translatable="false">mobeye-pushnotifications</string>
+</resources>

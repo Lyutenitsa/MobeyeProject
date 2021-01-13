@@ -1,0 +1,1 @@
+D:\Uni Stuff\S3\GroupProject\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication\obj\Release\netstandard2.0\MobeyeApplication.csprojAssemblyReference.cache

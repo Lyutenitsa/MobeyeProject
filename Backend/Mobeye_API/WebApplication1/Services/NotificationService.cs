@@ -31,7 +31,7 @@ namespace Mobeye_API.Models
                     ["FirstName"] = "John",
                     ["LastName"] = "Doe"
                 },
-                Notification = new NotificationService
+                Notification = new Notification
                 {
                     Title = "Message Title",
                     Body = "Message Body"
