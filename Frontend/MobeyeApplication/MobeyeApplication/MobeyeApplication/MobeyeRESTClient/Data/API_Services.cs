@@ -29,6 +29,7 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
         }
         private JsonSerializer _serializer = new JsonSerializer();
         private HttpClient client;
+
         public static HttpClient CreateClient()
         {
             HttpClient client;
@@ -40,6 +41,7 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
             client = new HttpClient(httpClientHandler);
             return client;
         }
+
         public API_Services()
         {
             var httpClientHandler = new HttpClientHandler();
@@ -112,6 +114,7 @@ namespace MobeyeApplication.MobeyeRESTClient.Data
                 throw new Exception(ex.Message);
             }
         }
+        
         //Check Authorization Request
         // for some reason -> returns null :) 
         public async Task<CheckAuthorizationResponse> CheckAuthorization(string phoneId, string privateKey)

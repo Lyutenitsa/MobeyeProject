@@ -1,4 +1,4 @@
-IsIncrementalBuild=true
+IsIncrementalBuild=false
 AndroidUseAapt2=True
 UseSharedRuntime=true
 UseFastDeployment=false
@@ -23,14 +23,6 @@ AndroidDexTool=d8
 AndroidLinkTool=
 AndroidEnableProfiledAot=
 AndroidInstallAfterBuild=True
-<<<<<<< HEAD
-AndroidSessionId=8185b611-72ea-4bf3-9485-e5416e4ab993
-=======
-<<<<<<< HEAD
-AndroidSessionId=feed6283-471e-4082-97b3-244d05982aa9
-=======
-AndroidSessionId=840fd515-0329-4e12-bc9e-69422ed415ef
->>>>>>> MobeyeRestClient
->>>>>>> fa04b4bd6990e92fbfd28c9fe64a957e41914bfc
+AndroidSessionId=7a5bc533-6640-4227-a6a2-e2be13e10b33
 BuildConfiguration=Debug
 TemplateName={c9e5eea5-ca05-42a1-839b-61506e0a37df}

@@ -37,9 +37,6 @@ namespace MobeyeApplication.Pages.CallKeyUser
             {
 
                 DoorView.ItemsSource = content.Devices;
-
-
-
             }
         }
         void LogOutButtonClicked(object sender, EventArgs args)
@@ -65,7 +62,6 @@ namespace MobeyeApplication.Pages.CallKeyUser
             }
             else
             {
-
 
                 DoorView.ItemsSource = content.Devices;
             }

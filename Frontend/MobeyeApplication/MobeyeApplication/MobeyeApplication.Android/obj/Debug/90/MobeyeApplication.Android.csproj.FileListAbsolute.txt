@@ -1961,7 +1961,6 @@ C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\De
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-<<<<<<< HEAD
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNet.SignalR.Client.dll
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNet.SignalR.Client.pdb
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNetCore.Connections.Abstractions.dll
@@ -1984,13 +1983,10 @@ C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\De
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.IO.Pipelines.dll
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Threading.Channels.dll
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Threading.Tasks.Extensions.dll
-<<<<<<< HEAD
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\refresh.png
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key3.png
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key1.png
 C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key2.png
-=======
-=======
 >>>>>>> b0bfbfef92b1471115be3ca351e783bd4f72bf98
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\globe.png
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\enter.png
@@ -2013,3 +2009,29 @@ D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\Mobeye
 D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
 >>>>>>> MobeyeRestClient
 >>>>>>> fa04b4bd6990e92fbfd28c9fe64a957e41914bfc
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\refresh.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key3.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key1.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\res\drawable\key2.png
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNet.SignalR.Client.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNet.SignalR.Client.pdb
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNetCore.Http.Features.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNetCore.SignalR.Client.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.Extensions.Configuration.Binder.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.Extensions.Configuration.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.Extensions.Logging.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.Extensions.Options.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\Microsoft.Extensions.Primitives.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.IO.Pipelines.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Threading.Channels.dll
+D:\Users\User\Desktop\Mobeye\Frontend\MobeyeApplication\MobeyeApplication\MobeyeApplication.Android\obj\Debug\90\android\assets\System.Threading.Tasks.Extensions.dll
