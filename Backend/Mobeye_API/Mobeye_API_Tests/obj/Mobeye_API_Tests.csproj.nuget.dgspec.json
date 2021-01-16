@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj": {}
+    "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj": {}
   },
   "projects": {
-    "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj": {
+    "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj",
+        "projectUniqueName": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj",
         "projectName": "Mobeye_API_Tests",
-        "projectPath": "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj",
-        "packagesPath": "C:\\Users\\lutfi\\.nuget\\packages\\",
-        "outputPath": "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\obj\\",
+        "projectPath": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\Mobeye_API_Tests.csproj",
+        "packagesPath": "C:\\Users\\IUSTIN\\.nuget\\packages\\",
+        "outputPath": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\Mobeye_API_Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\lutfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IUSTIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -31,9 +30,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {
-                "projectPath": "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj"
+              "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {
+                "projectPath": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj"
               }
             }
           }
@@ -46,6 +46,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FirebaseAdmin": {
               "target": "Package",
@@ -90,25 +91,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {
+    "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
+        "projectUniqueName": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
         "projectName": "Mobeye_API",
-        "projectPath": "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
-        "packagesPath": "C:\\Users\\lutfi\\.nuget\\packages\\",
-        "outputPath": "D:\\Uni Stuff\\S3\\GroupProject\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\obj\\",
+        "projectPath": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
+        "packagesPath": "C:\\Users\\IUSTIN\\.nuget\\packages\\",
+        "outputPath": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\lutfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IUSTIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -121,6 +121,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -132,6 +133,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -188,7 +190,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

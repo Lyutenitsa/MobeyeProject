@@ -16,9 +16,8 @@ namespace Mobeye_API.Data
             _context = context;
         }
 
-        public User CheckAuthorization(string role, IEnumerable<string> devices, string authPrivateKey)
+        public User CheckAuthorization(string role, IEnumerable<Device> devices, string authPrivateKey)
         {
-            //throw new NotImplementedException();
             if (role != "CallKey User" && authPrivateKey == null)
             {
                 throw new ArgumentNullException();

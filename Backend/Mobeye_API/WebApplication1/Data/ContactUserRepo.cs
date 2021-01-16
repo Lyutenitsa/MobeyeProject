@@ -14,7 +14,7 @@ namespace Mobeye_API.Data
         {
             _context = context;
         }
-        public User CheckAuthorization(string role, IEnumerable<string> devices, string authPrivateKey)
+        public User CheckAuthorization(string role, IEnumerable<Device> devices, string authPrivateKey)
         {
             if (role != "Contact User" && authPrivateKey == null)
             {
