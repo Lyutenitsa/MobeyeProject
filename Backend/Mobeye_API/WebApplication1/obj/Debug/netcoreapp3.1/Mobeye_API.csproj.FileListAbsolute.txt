@@ -69,7 +69,6 @@ C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\obj\De
 D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\mobeye-pushnotifications-firebase-adminsdk-oactd-243e359424.json
 D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.exe
 D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.deps.json
 D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Mobeye_API.runtimeconfig.json

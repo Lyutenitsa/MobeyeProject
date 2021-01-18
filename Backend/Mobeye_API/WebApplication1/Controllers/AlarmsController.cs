@@ -17,6 +17,7 @@ namespace Mobeye_API.Controllers
     {
         private readonly IAlarm _alarmRepo;
         private readonly IMapper _mapper;
+        private readonly NotificationService notification;
 
         public AlarmsController(IAlarm alarmRepo, IMapper mapper)
         {
@@ -30,7 +31,7 @@ namespace Mobeye_API.Controllers
             var alarmModel = _mapper.Map<Alarm>(alarmCreateDto);
             _alarmRepo.CreateAlarm(alarmModel);
             _alarmRepo.SaveChanges();
-
+            //notification.SendMessage(alarmModel);
             var alarmReadDto = _mapper.Map<AlarmReadDto>(alarmModel);
             return CreatedAtAction(nameof(GetAlarmById), new { id = alarmReadDto.Id }, alarmReadDto);
         }

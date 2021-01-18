@@ -17,7 +17,7 @@ namespace Mobeye_API.Models
         {
 
         }
-        public void SendMessage()
+        public void SendMessage(Alarm alarm)
         {
             var defaultApp = FirebaseApp.Create(new AppOptions()
             {
@@ -28,15 +28,15 @@ namespace Mobeye_API.Models
             {
                 Data = new Dictionary<string, string>()
                 {
-                    ["FirstName"] = "John",
-                    ["LastName"] = "Doe"
+                    ["DeviceName"] = alarm.Devicename,
+                    ["Location"] = alarm.Location
                 },
                 Notification = new Notification
                 {
-                    Title = "Message Title",
-                    Body = "Message Body"
+                    Title = alarm.Devicename,
+                    Body = alarm.Alarmtext
                 },
-                Topic = "news"
+                Topic = "alarm"
             };
             var messaging = FirebaseMessaging.DefaultInstance;
             var result = messaging.SendAsync(message);
