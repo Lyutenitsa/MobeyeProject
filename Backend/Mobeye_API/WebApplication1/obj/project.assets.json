@@ -5968,23 +5968,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IUSTIN\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Krisi\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
+      "projectUniqueName": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
       "projectName": "Mobeye_API",
-      "projectPath": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
-      "packagesPath": "C:\\Users\\IUSTIN\\.nuget\\packages\\",
-      "outputPath": "D:\\git reps\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\obj\\",
+      "projectPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\Mobeye_API.csproj",
+      "packagesPath": "C:\\Users\\Krisi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Krisi\\Documents\\GitHub\\Mobeye\\Backend\\Mobeye_API\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\IUSTIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Krisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5997,7 +5999,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -6009,7 +6010,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -6066,7 +6066,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

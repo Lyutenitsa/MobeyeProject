@@ -146,3 +146,11 @@ D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug
 D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
 D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Uni Stuff\S3\GroupProject\Mobeye\Backend\Mobeye_API\WebApplication1\obj\Debug\netcoreapp3.1\Mobeye_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\Krisi\Documents\GitHub\Mobeye\Backend\Mobeye_API\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
