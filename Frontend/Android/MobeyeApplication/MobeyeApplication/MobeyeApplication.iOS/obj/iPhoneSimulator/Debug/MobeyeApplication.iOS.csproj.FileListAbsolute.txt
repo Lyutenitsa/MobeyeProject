@@ -1,0 +1,17 @@
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\bin\iPhoneSimulator\Debug\MobeyeApplication.iOS.pdb
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\bin\iPhoneSimulator\Debug\MobeyeApplication.dll
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\bin\iPhoneSimulator\Debug\MobeyeApplication.pdb
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\MobeyeApplication.iOS.csprojAssemblyReference.cache
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\MobeyeApplication.iOS.csproj.CoreCompileInputs.cache
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\MobeyeApplication.iOS.csproj.CopyComplete
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\MobeyeApplication.iOS.pdb
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\bin\iPhoneSimulator\Debug\MobeyeApplication.iOS.dll
+C:\Projects\MobeyeApplication\MobeyeApplication\MobeyeApplication.iOS\obj\iPhoneSimulator\Debug\MobeyeApplication.iOS.dll

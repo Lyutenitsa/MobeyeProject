@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ErEJmgCD/0niV1I6nnWdTceOnyGudNHFnvh9Cty2sD6OAKb5D6qS/gWdsnoffJknIvdSB65l7ipYrRxEnnWB/A==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\MobeyeApplication\\MobeyeApplication\\MobeyeApplication.iOS\\MobeyeApplication.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Krisi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Krisi\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Krisi\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512",
+    "C:\\Users\\Krisi\\.nuget\\packages\\xamarinforms.cardview\\1.1.1.5\\xamarinforms.cardview.1.1.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
