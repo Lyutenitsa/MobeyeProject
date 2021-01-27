@@ -4,9 +4,6 @@
 
 ## The members of this group are:
 * **Kristin Peneva**,student number: **3897281**
-* **Lyutfi Ismail**, student number:
-* **Leon Matijević**, student number:
-* **Pavel Astašov**, student number:
 * **Bozhidar Stoykov**, student number: **3999564**
 * **Iustin Teşcan**, student number: **3907007**
 
