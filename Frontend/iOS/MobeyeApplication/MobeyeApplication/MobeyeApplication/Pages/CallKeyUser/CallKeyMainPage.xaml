@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobeyeApplication.Pages.CallKeyUser.CallKeyMainPage"
+             Title="Door">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Grid Padding="20" BackgroundColor="#29590D">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <ImageButton  Source="refresh.png" Grid.Column="0" WidthRequest="50" Margin="0,0,110,0"  BackgroundColor="#29590D" Clicked="RefreshButtonClicked"/>
+                <!--<Image Source="reset_button.png" Scale="0.2"/>-->
+
+                <ImageButton Source="logout.png" Grid.Column="1" WidthRequest="50" BackgroundColor="#29590D"  Margin="110,0,0,0 " Clicked="LogOutButtonClicked"/>
+
+            </Grid>
+            <Label Text="Available Doors" FontSize="30" Margin="100,10" TextColor="Black"></Label>
+            <BoxView Color="White" HeightRequest="5"></BoxView>
+            <BoxView Color="Gray" HeightRequest="1" Opacity="0.5" HorizontalOptions="Center" WidthRequest="400"></BoxView>
+            <BoxView Color="White" HeightRequest="5"></BoxView>
+
+
+
+            <ListView x:Name="DoorView" Margin="10" HasUnevenRows="true" HeightRequest="200" SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <ViewCell.View>
+                                <Grid  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="70" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Label FontSize="30" Grid.Column="0" Text="{Binding DeviceName}"
+                                Margin="1"/>
+                                    <Label FontSize="30" Grid.Column="2" Text="{Binding Command}"
+                             Margin="1" />
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button x:Name="openButton" Text="Open Door" FontSize="30" HorizontalOptions="Fill" VerticalOptions="Center" Margin="10,20,10,20" Padding="20" BackgroundColor="#29590D" TextColor="White" Clicked="OpenDoorButtonClicked" ImageSource="key1.png"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

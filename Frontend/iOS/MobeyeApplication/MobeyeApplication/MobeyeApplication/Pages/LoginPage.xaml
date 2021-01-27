@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cardView="clr-namespace:CardView;assembly=CardView"
+             x:Class="MobeyeApplication.Pages.LoginPage">
+
+    <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="#29590D">
+        <cardView:CardView BackgroundColor="White" CardViewHeightRequest="700" Margin="10,20">
+            <cardView:CardView.CardViewContent>
+                <StackLayout>
+                    <Image Source="logo_nobackground.png" WidthRequest="190" HeightRequest="190" Margin="100,80" />
+                    <Entry x:Name="SMSCode" IsPassword="True" Placeholder="Input your Code" Margin="50,15" ></Entry>
+                    <Button Text="Sign in" Margin="40,15" CornerRadius="20" BackgroundColor="#29590D" TextColor="White" FontSize="Medium" Clicked="OnRegisterButtonClicked"/>
+                </StackLayout>
+
+            </cardView:CardView.CardViewContent>
+
+        </cardView:CardView>
+        <!--<Image Source="mobey_logo.jpg" WidthRequest="180" HeightRequest="180" />
+            <Entry IsPassword="True" Placeholder="SMS Code"></Entry>-->
+    </StackLayout>
+
+    <!--<Grid Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                </Grid.RowDefinitions>
+                <Button Text="User 1" Grid.Column="0" Margin="0,20,0,0" Clicked="OnUser1ButtonClicked"/>
+                <Button Text="User 2" Grid.Column="1" Margin="0,20,0,0" Clicked="OnUser2ButtonClicked"/>
+                <Button Text="User 3" Grid.Column="2" Margin="0,20,0,0" Clicked="OnUser3ButtonClicked"/>
+            </Grid>-->
+
+
+</ContentPage>
